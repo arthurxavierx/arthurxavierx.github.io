@@ -24,12 +24,17 @@ body {
 .container {
   max-width: 960px;
 }
-.container.small { width: 33%; }
+.container.small { width: 480px; }
 .center {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 .fit { width: 100%; }
 @media (max-width: 480px) {
+  .container { width: 100%; }
+  .container.small { width: 100%; }
+}
+@media (max-width: 720px) {
   .container { width: 100%; }
   .container.small { width: 100%; }
 }
@@ -61,6 +66,10 @@ body {
 #skills .container {
   display: inline-block;
   vertical-align: top;
+}
+#skills > .container.small { width: 33%; }
+@media (max-width: 920px) {
+  #skills > .container.small { width: 100%; }
 }
 
 #portfolio {
@@ -98,11 +107,19 @@ h4 {
   text-align: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   h1 { font-size: 3.7rem; }
   h2 { font-size: 3.0em; }
   #title table {
     font-size: 1.5rem;
+    padding: 0.8rem 1.0rem;
+  }
+}
+@media (min-width: 721px) and (max-width: 920px) {
+  h1 { font-size: 8.7rem; }
+  h2 { font-size: 5.0em; }
+  #title table {
+    font-size: 2.3rem;
     padding: 0.8rem 1.0rem;
   }
 }
@@ -134,15 +151,16 @@ nav {
   z-index: 1;
 }
 nav ul {
+  width: 100%;
   list-style: none;
   padding: 16px 0;
   margin: 0;
-  float: right;
+  text-align: right;
 }
 nav ul li {
   font-size: 1.4rem;
   display: inline;
-  padding: 0 2.0em;
+  padding: 0 1.1em;
 }
 nav ul li a > svg {
   fill: currentColor;
@@ -157,9 +175,15 @@ nav ul li a {
 }
 nav ul li a:hover { color: #F5F5F5; }
 nav ul li a.selected { color: #FFFFFF; }
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   nav { height: 56px; }
-  nav ul { margin: 0 auto; float: none; display: table; }
+  nav ul {
+    width: 100%;
+    text-align: center;
+    float: none;
+    clear: both;
+    display: table;
+  }
   nav ul li { padding: 0 0.7em; }
   nav ul li a > span { display: none; }
   nav ul li a > svg {
