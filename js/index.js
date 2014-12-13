@@ -28,7 +28,7 @@ $(document).ready(function() {
   });
 
   // cards
-  $('#portfolio .card').click(function() {
+  $('.card[href]').click(function() {
     window.open($(this).attr('href'));
   });
 

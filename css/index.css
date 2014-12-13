@@ -210,7 +210,6 @@ h4 {
 }
 
 #portfolio { min-height: 72%; }
-#portfolio .card:hover { cursor: pointer; }
 footer {
   position: relative;
   background: #BDBDBD;

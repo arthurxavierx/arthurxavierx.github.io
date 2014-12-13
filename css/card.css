@@ -51,9 +51,10 @@ p > em { color: inherit; }
   border-left: 5px #D0D0D0 dotted;
   margin: 1.0em auto;
   width: 1px;
-  height: 128px;
+  height: 125px;
 }
 
+.card[href]:hover { cursor: pointer; }
 
 /* TRANSITIONS */
 .card.shadow {
