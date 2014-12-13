@@ -5,12 +5,14 @@ $(document).ready(function() {
   var scrolling = false;
   var opacity = 0.0;
 
+  // navbar
   $(window).scroll(function() {
     opacity = 1.0 - Math.max(0, ($(this).height() - $(this).scrollTop()) / $(this).height());
     $('nav').css('background-color', 'rgba(93, 173, 232, ' + opacity + ')');
     $('nav').css('box-shadow', '0px 1px 10px rgba(0, 0, 0, ' + opacity*0.26 + ')');
   });
 
+  // navbar link
   $('nav li a').click(function(e) {
     e.preventDefault();
 
@@ -25,6 +27,7 @@ $(document).ready(function() {
     }
   });
 
+  // cards
   $('#portfolio .card').click(function() {
     window.open($(this).attr('href'));
   });

@@ -131,6 +131,7 @@ section {
   text-align: justify;
   min-height: 100%;
   padding-bottom: 4.0em;
+  border-bottom: 1px #E0E0E0 solid;
 }
 section div.toolbar {
   content: "";
@@ -140,7 +141,6 @@ h2 {
   font-weight: 100;
   font-size: 6.0em;
   color: #FF9800;
-  display: block;
   text-align: center;
   margin-bottom: 1.6em;
 }
@@ -189,54 +189,6 @@ p strong {
   font-weight: 300;
 }
 
-.shadow {
-  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.26);
-}
-.card {
-  background-color: #FAFAFA;
-  border-radius: 2px;
-  margin: 8px;
-  width: auto;
-  text-align: left;
-}
-.card.small { 
-  display: inline-block;
-  vertical-align: top;
-  width: 300px;
-}
-.card > .top {
-  background-position: center;
-  background-size: cover;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-  height: 270px;
-}
-h3 {
-  font-size: 2.6em;
-  font-weight: 300;
-  color: #FFFFFF;
-  margin: 16px;
-  margin-bottom: 12px;
-}
-h3.small { font-size: 1.6em; }
-.card > .bottom {
-  padding: 16px;
-}
-.card p { padding: 0.8em 0 0.2em; }
-.card p::first-letter { font-size: inherit; }
-em {
-  font-style: normal;
-  font-variant: small-caps;
-  color: #757575;
-}
-p > em { color: inherit; }
-
-.vertical-dots {
-  border-left: 5px #D0D0D0 dotted;
-  margin: 1.0em auto;
-  width: 1px;
-  height: 128px;
-}
 
 h4 {
   font-size: 1.4em;
@@ -262,15 +214,16 @@ h4 {
 footer {
   position: relative;
   background: #BDBDBD;
-  padding-top: 32px;
+  padding: 8px 0;
   width: 100%;
   height: 128px;
 }
-footer a {
-  color: #9E9E9E;
-  margin: 2.0em;
-}
+footer td { padding: 1.0em 2.0em 0; }
+footer a { color: #9E9E9E; }
 footer a:hover { color: #E0E0E0; }
+footer small {
+  color: #9E9E9E;
+}
 footer svg {
   fill: currentColor;
   display: inline-block;
@@ -279,6 +232,6 @@ footer svg {
 }
 @media (max-width: 480px) {
   footer { height: 100px; }
-  footer a { margin: 1.0em; }
+  footer td { padding: 1.0em 0.3em 0; }
   footer svg { width: 32px; height: 32px; }
 }
