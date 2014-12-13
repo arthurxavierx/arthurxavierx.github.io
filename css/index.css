@@ -14,9 +14,8 @@ body {
   height: 100%;
 }
 
-/*
-layout classes
-*/
+
+/* LAYOUT CLASSES */
 .layout { position: relative; }
 .layout > .bottom {
   position: absolute;
@@ -35,9 +34,8 @@ layout classes
   .container.small { width: 100%; }
 }
 
-/*
-id elements
-*/
+
+/* ID ELEMENTS */
 #wrapper {
   height: 100%;
 }
@@ -51,6 +49,27 @@ id elements
   color: #BDBDBD;
 }
 
+#about { background-color: #FAFAFA; }
+#education { background-color: #ECEFF1; }
+#experience { background-color: #E8EAF6; }
+
+#skills { background-color: #FAFAFA; }
+#skills > .container > div {
+  margin-bottom: 3.3em;
+  width: 300px;
+}
+#skills .container {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#portfolio {
+  background-color: #E8EAF6;
+  min-height: 72%;
+}
+
+
+/* TYPOGRAPHY */
 h1 {
   margin: 0;
   line-height: 1.0em;
@@ -59,8 +78,29 @@ h1 {
   color: #E0E0E0;
 }
 h1 strong { font-weight: 300; color: #FFFFFF; }
+
+h2 {
+  font-weight: 100;
+  font-size: 6.0em;
+  color: #FF9800;
+  text-align: center;
+  margin: 0.6em 0 1.1em;
+}
+h2.small {
+  font-size: 3.0em;
+}
+
+h4 {
+  font-size: 1.4em;
+  font-size: bold;
+  color: #424242;
+  margin-bottom: 0.9em;
+  text-align: center;
+}
+
 @media (max-width: 480px) {
   h1 { font-size: 3.7rem; }
+  h2 { font-size: 3.0em; }
   #title table {
     font-size: 1.5rem;
     padding: 0.8rem 1.0rem;
@@ -68,6 +108,7 @@ h1 strong { font-weight: 300; color: #FFFFFF; }
 }
 
 
+/* HEADER */
 header {
   background-image: url(../img/fi-dortmund.jpg);
   background-position: center bottom;
@@ -82,6 +123,8 @@ header {
   header { background-image: url(../img/fi-dortmund-720.jpg); }
 }
 
+
+/* NAV */
 nav {
   position: fixed;
   font-weight: 100;
@@ -126,6 +169,7 @@ nav ul li a.selected { color: #FFFFFF; }
   }
 }
 
+/* SECTION */
 section {
   background-color: #FAFAFA;
   text-align: justify;
@@ -133,31 +177,16 @@ section {
   padding-bottom: 4.0em;
   border-bottom: 1px #E0E0E0 solid;
 }
+/* toolbar placeholder */
 section div.toolbar {
   content: "";
   height: 64px;
 }
-h2 {
-  font-weight: 100;
-  font-size: 6.0em;
-  color: #FF9800;
-  text-align: center;
-  margin: 0.6em 0 1.1em;
-}
-h2.small {
-  font-size: 3.0em;
-}
 @media (max-width: 480px) {
-  h2 { font-size: 3.0em; }
   section div.toolbar { height: 56px; }
 }
 
-#about { background-color: #FAFAFA; }
-#education { background-color: #ECEFF1; }
-#experience { background-color: #E8EAF6; }
-#skills { background-color: #FAFAFA; }
-#portfolio { background-color: #E8EAF6; }
-
+/* ABOUT */
 img.avatar {
   margin: 32px 32px 16px 16px;
   border-radius: 100px;
@@ -172,7 +201,6 @@ img.avatar {
     height: 100px;
   }
 }
-
 p {
   font-size: 1.2em;
   font-weight: 300;
@@ -190,23 +218,7 @@ p strong {
 }
 
 
-h4 {
-  font-size: 1.4em;
-  font-size: bold;
-  color: #424242;
-  margin-bottom: 0.9em;
-  text-align: center;
-}
-#skills > .container > div {
-  margin-bottom: 3.3em;
-  width: 300px;
-}
-#skills .container {
-  display: inline-block;
-  vertical-align: top;
-}
-
-#portfolio { min-height: 72%; }
+/* FOOTER */
 footer {
   position: relative;
   background: #BDBDBD;

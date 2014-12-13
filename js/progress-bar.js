@@ -3,9 +3,7 @@
 $(document).ready(function() {
 
   $(window).on('scroll', function() {
-    $('.progress:above-the-top, .progress:below-the-fold').each(function() {
-      $(this).css('width', '0');
-    });
+    $('.progress:above-the-top, .progress:below-the-fold').css('width', '0');
     $('.progress-bar:in-viewport').each(function() {
       var percent = parseFloat($(this).attr('percent'));
       $(this).find('.progress').animate({
@@ -13,5 +11,4 @@ $(document).ready(function() {
       }, 1000);
     });
   });
-
 });

@@ -31,5 +31,4 @@ $(document).ready(function() {
   $('.card[href]').click(function() {
     window.open($(this).attr('href'));
   });
-
 });
