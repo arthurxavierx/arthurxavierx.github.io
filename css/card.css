@@ -3,7 +3,7 @@ css/card.css
 */
 
 .shadow {
-  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.26);
 }
 .card {
   background-color: #FAFAFA;
@@ -70,6 +70,6 @@ p > em { color: inherit; }
   -ms-transform: translateY(-4px);
   transform: translateY(-4px);
 
-  -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16);
-  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.16);
 }
