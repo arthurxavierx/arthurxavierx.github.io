@@ -55,10 +55,11 @@ body {
 }
 
 #about { background-color: #FAFAFA; }
-#education { background-color: #ECEFF1; }
-#experience { background-color: #E8EAF6; }
+#education { background-color: #F5F5F5; }
+#experience { background-color: #FAFAFA; }
+#skills { background-color: #F5F5F5; }
+#portfolio { background-color: #EEEEEE; }
 
-#skills { background-color: #FAFAFA; }
 #skills > .container > div {
   margin-bottom: 3.3em;
   width: 300px;
@@ -72,10 +73,7 @@ body {
   #skills > .container.small { width: 100%; }
 }
 
-#portfolio {
-  background-color: #E8EAF6;
-  min-height: 72%;
-}
+#portfolio { min-height: 72%; }
 
 
 /* TYPOGRAPHY */
@@ -91,7 +89,8 @@ h1 strong { font-weight: 300; color: #FFFFFF; }
 h2 {
   font-weight: 100;
   font-size: 6.0em;
-  color: #FF9800;
+  /*color: #FF9800;*/
+  color: #FFB95C;
   text-align: center;
   margin: 0.6em 0 1.1em;
 }
@@ -198,8 +197,7 @@ section {
   background-color: #FAFAFA;
   text-align: justify;
   min-height: 100%;
-  padding-bottom: 4.0em;
-  border-bottom: 1px #E0E0E0 solid;
+  padding-bottom: 6.0em;
 }
 /* toolbar placeholder */
 section div.toolbar {

@@ -6,13 +6,13 @@ css/card.css
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.26);
 }
 .card {
-  background-color: #FAFAFA;
+  background-color: #FFFFFF;
   border-radius: 2px;
   margin: 8px;
   width: auto;
   text-align: left;
 }
-.card.small { 
+.card.small {
   display: inline-block;
   vertical-align: top;
   width: 300px;
