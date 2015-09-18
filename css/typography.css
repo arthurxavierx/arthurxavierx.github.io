@@ -1,0 +1,53 @@
+/*
+css/typography.css
+*/
+
+h1 {
+  margin: 0;
+  line-height: 1.0em;
+  font-size: 10.8rem;
+  font-weight: 100;
+  color: #EEEEEE;
+}
+h1 strong { font-weight: 300; color: #FFFFFF; }
+
+h2 {
+  font-weight: 300;
+  font-size: 6.0em;
+  color: #FAFAFA;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 3.0em;
+  text-align: center;
+  color: #424242;
+  margin: 0.6em 0 1.6em;
+  width: 100%;
+}
+
+h4 {
+  font-size: 1.4em;
+  font-size: bold;
+  color: #424242;
+  margin-bottom: 0.9em;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  h1 { font-size: 3.7rem; }
+  h2 { font-size: 4.0em; }
+  #title table {
+    font-size: 1.5rem;
+    padding: 0.8rem 1.0rem;
+  }
+}
+@media (min-width: 721px) and (max-width: 920px) {
+  h1 { font-size: 8.7rem; }
+  h2 { font-size: 5.0em; }
+  #title table {
+    font-size: 2.3rem;
+    padding: 0.8rem 1.0rem;
+  }
+}

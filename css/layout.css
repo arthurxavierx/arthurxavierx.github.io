@@ -1,5 +1,5 @@
 /*
-css/index.css
+css/layout.css
 */
 
 html,
@@ -22,7 +22,8 @@ body {
   bottom: 0;
 }
 .container {
-  max-width: 960px;
+  padding: 5.0em 0;
+  max-width: 720px;
 }
 .container.small { width: 480px; }
 .center {
@@ -35,7 +36,7 @@ body {
   .container.small { width: 100%; }
 }
 @media (max-width: 720px) {
-  .container { width: 100%; }
+  .container { padding: 2.0em 0; width: 100%; }
   .container.small { width: 100%; }
 }
 
@@ -51,14 +52,8 @@ body {
 #title table {
   padding: 2.0rem 3.0rem;
   font-size: 2.3rem;
-  color: #BDBDBD;
+  color: #E0E0E0;
 }
-
-#about { background-color: #FAFAFA; }
-#education { background-color: #F5F5F5; }
-#experience { background-color: #FAFAFA; }
-#skills { background-color: #F5F5F5; }
-#portfolio { background-color: #EEEEEE; }
 
 #skills > .container > div {
   margin-bottom: 3.3em;
@@ -73,54 +68,52 @@ body {
   #skills > .container.small { width: 100%; }
 }
 
-#portfolio { min-height: 72%; }
+#portfolio { min-height: 72vh; }
+
+#portfolio ul > li { display: inline-block; width: 320px; }
+#portfolio ul > li div.round { width: 100px; height: 100px; }
 
 
-/* TYPOGRAPHY */
-h1 {
-  margin: 0;
-  line-height: 1.0em;
-  font-size: 10.8rem;
-  font-weight: 100;
-  color: #E0E0E0;
+/* LIST */
+ul { padding: 1.0em; }
+ul > li {
+  list-style: none;
+  margin: 20px 0;
 }
-h1 strong { font-weight: 300; color: #FFFFFF; }
-
-h2 {
-  font-weight: 100;
-  font-size: 6.0em;
-  /*color: #FF9800;*/
-  color: #FFB95C;
-  text-align: center;
-  margin: 0.6em 0 1.1em;
+ul > li div.round {
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 16px;
+  width: 200px;
+  height: 200px;
+  float: left;
 }
-h2.small {
-  font-size: 3.0em;
+ul > li h3 {
+  font-size: 1.6em;
+  text-align: left;
+  margin-bottom: 0;
 }
+ul > li p { padding: 1.0em 0; }
 
-h4 {
-  font-size: 1.4em;
-  font-size: bold;
-  color: #424242;
-  margin-bottom: 0.9em;
-  text-align: center;
+table[href] { cursor: pointer; }
+
+.vertical-dots {
+  border-left: 5px #D0D0D0 dotted;
+  margin: 0 100px;
+  width: 1px;
+  height: 95px;
 }
 
 @media (max-width: 720px) {
-  h1 { font-size: 3.7rem; }
-  h2 { font-size: 3.0em; }
-  #title table {
-    font-size: 1.5rem;
-    padding: 0.8rem 1.0rem;
+  ul > li div.round {
+    width: 100px;
+    height: 100px;
   }
-}
-@media (min-width: 721px) and (max-width: 920px) {
-  h1 { font-size: 8.7rem; }
-  h2 { font-size: 5.0em; }
-  #title table {
-    font-size: 2.3rem;
-    padding: 0.8rem 1.0rem;
-  }
+  ul > li h3 { font-size: 1.3em; font-weight: normal; }
+  ul > li em { font-size: 0.9em; }
+  ul > li p { display: none; }
+  .vertical-dots { margin: 0 50px; }
 }
 
 
@@ -130,18 +123,20 @@ header {
   background-position: center bottom;
   background-attachment: fixed;
   background-size: cover;
-  height: 100%;
-}
-@media screen and (max-width: 480px) {
-  header { background-image: url(../img/fi-dortmund-480.jpg); }
+  height: 100vh;
 }
 @media screen and (max-width: 720px) {
   header { background-image: url(../img/fi-dortmund-720.jpg); }
+  #education title { background-image: url(../img/education-720.jpg); }
+  #experience title { background-image: url(../img/experience-720.jpg); }
+  #skills title { background-image: url(../img/skills-720.jpg); }
+  #portfolio title { background-image: url(../img/portfolio-720.jpg); }
 }
 
 
 /* NAV */
 nav {
+  background-color: #FFFFFF;
   position: fixed;
   font-weight: 100;
   width: 100%;
@@ -169,7 +164,7 @@ nav ul li a > svg {
 }
 nav ul li a {
   border-radius: 4px;
-  color: #EEEEEE;
+  color: #212121;
   text-decoration: none;
 }
 nav ul li a:hover { color: #F5F5F5; }
@@ -192,21 +187,26 @@ nav ul li a.selected { color: #FFFFFF; }
   }
 }
 
+
 /* SECTION */
 section {
   background-color: #FAFAFA;
   text-align: justify;
-  min-height: 100%;
-  padding-bottom: 6.0em;
+  /*min-height: 100%;*/
+  padding-bottom: 4.0em;
 }
-/* toolbar placeholder */
-section div.toolbar {
-  content: "";
-  height: 64px;
+section > div.title {
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 10.0em 0;
+  width: 100%;
 }
-@media (max-width: 480px) {
-  section div.toolbar { height: 56px; }
+@media (max-width: 720px) {
+  section > div.title { padding: 5.0em 0; }
 }
+
 
 /* ABOUT */
 img.avatar {
@@ -246,9 +246,9 @@ p strong {
 footer {
   position: relative;
   background: #BDBDBD;
-  padding: 8px 0;
+  padding: 32px 0 0;
   width: 100%;
-  height: 128px;
+  height: 150px;
 }
 footer td { padding: 1.0em 2.0em 0; }
 footer a { color: #9E9E9E; }
