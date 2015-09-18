@@ -35,6 +35,11 @@ h4 {
   text-align: center;
 }
 
+td > em {
+  color: #616161;
+  font-style: normal;
+}
+
 @media (max-width: 720px) {
   h1 { font-size: 3.7rem; }
   h2 { font-size: 4.0em; }
