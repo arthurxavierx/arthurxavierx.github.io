@@ -113,7 +113,7 @@ table[href] { cursor: pointer; }
   ul > li h3 { font-size: 1.3em; font-weight: normal; }
   ul > li em { font-size: 0.9em; }
   ul > li p { display: none; }
-  .vertical-dots { margin: 0 50px; }
+  .vertical-dots { margin: 0 50px; height: 55px; }
 }
 
 
@@ -200,11 +200,11 @@ section > div.title {
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
-  padding: 10.0em 0;
+  padding: 160px 0;
   width: 100%;
 }
 @media (max-width: 720px) {
-  section > div.title { padding: 5.0em 0; }
+  section > div.title { padding: 100px 0; }
 }
 
 
