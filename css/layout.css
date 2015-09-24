@@ -69,8 +69,12 @@ body {
 }
 
 #portfolio { min-height: 72vh; }
-
-#portfolio ul > li { display: inline-block; width: 320px; }
+#portfolio ul > li {
+  text-align: left;
+  display: inline-block;
+  width: 320px;
+  vertical-align: middle;
+}
 #portfolio ul > li div.round { width: 100px; height: 100px; }
 
 
@@ -251,7 +255,7 @@ footer {
 }
 footer td { padding: 1.0em 2.0em 0; }
 footer a { color: #9E9E9E; }
-footer a:hover { color: #E0E0E0; }
+footer a:hover { color: #757575; }
 footer small {
   color: #9E9E9E;
 }
