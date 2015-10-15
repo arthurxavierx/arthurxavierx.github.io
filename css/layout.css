@@ -24,7 +24,7 @@ body {
   bottom: 0;
 }
 .container {
-  padding: 5.0rem 0;
+  padding: 4.0rem 0 2.0rem;
   max-width: 80rem;
 }
 .container.small {
@@ -86,14 +86,13 @@ body {
   #skills > .container.small { width: 100%; }
 }
 
-#portfolio { min-height: 72vh; }
 #portfolio ul > li {
   text-align: left;
   display: inline-block;
   width: 320px;
   vertical-align: middle;
 }
-#portfolio ul > li div.round { width: 100px; height: 100px; }
+#portfolio ul > li .round { width: 100px; height: 100px; }
 
 
 /* LIST */
@@ -180,7 +179,7 @@ section > .title {
 #about #column-1 {
   background-image: url(../img/brush-stroke.png);
   background-position: bottom left;
-  background-size: 20.0rem;
+  background-size: 15.0rem;
   background-repeat: no-repeat no-repeat;
 }
 .avatar {
@@ -196,10 +195,10 @@ footer {
   position: relative;
   background: #E0E0E0;
   color: #9E9E9E;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding: 32px 0 0;
   width: 100%;
-  height: 200px;
+  height: 180px;
 }
 footer td { padding: 1.0em 2.0em 0; }
 footer a { color: #BDBDBD; }
