@@ -91,7 +91,10 @@ em {
 }
 
 a { text-decoration: none; }
-a:hover { text-decoration: underline; }
+a:hover h1,
+a:hover h2,
+a:hover h3,
+a:hover h4 { text-decoration: underline; }
 
 @media (max-width: 767px) {
   big { font-size: 7.0rem; }

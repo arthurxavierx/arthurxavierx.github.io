@@ -99,9 +99,9 @@ body {
 ul { padding: 0 1.0em; margin: 0; }
 ul > li {
   list-style: none;
-  margin: 20px 0;
+  margin: 2.0rem 0;
 }
-ul > li div.round {
+ul > li .round {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
@@ -176,10 +176,10 @@ section > .title {
 
 
 /* ABOUT */
-#about #column-1 {
+.bg-stroke {
   background-image: url(../img/brush-stroke.png);
-  background-position: bottom left;
-  background-size: 15.0rem;
+  background-position: bottom right;
+  background-size: 30.0rem;
   background-repeat: no-repeat no-repeat;
 }
 .avatar {
