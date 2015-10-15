@@ -16,6 +16,7 @@
     <link href="css/typography.css" rel="stylesheet" type="text/css" />
     <link href="css/progress-bar.css" rel="stylesheet" type="text/css" />
     <link href="//fonts.googleapis.com/css?family=Roboto:500,400,100,300" rel="stylesheet" type="text/css" />
+    <link href="//fonts.googleapis.com/css?family=Roboto+Slab:100,400" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
@@ -23,12 +24,11 @@
       HOME
     -->
     <header id="home" class="layout">
-
       <div id="title" class="bottom fit">
         <table style="float: right">
           <tr>
             <td colspan="3">
-              <h1>arthur<strong>xavier</strong></h1>
+              <h1>arthur<b class="text-light text-white">xavier</b></h1>
             </td>
           </tr>
           <tr>
@@ -45,11 +45,22 @@
     -->
     <section id="about">
       <div class="container center">
-        <img class="center avatar" src="img/avatar.jpg" />
-        <p>Hello! My name is <strong>Arthur Xavier</strong>, developer, student and a little bit of a musician.</p>
-        <p>I am a 20 years old Computer Science student at the Federal University of Minas Gerais, Brazil.</p>
-        <p>Excellence and passion are the keys. Being able to change other peoples lives and make the difference is what drives me. As an active self-taught developer for many years I can say that coding is one of the greatest passions I have in my life, next to music and languages.</p>
-        <p>I love getting to know or working with incoming and emerging technologies and trends. Node.js, the new hype, is my favourite. I'm deeply interested in functional programming and all its capabilities, foremost, the ability to write simple yet powerful code, which one can easily verify and reason about.</p>
+        <div class="row">
+          <div id="column-1" class="column column-50 pull-left">
+            <img class="avatar center show-on-mobile" src="img/avatar.jpg" />
+            <p><big>Hello,</big></p>
+            <p>my name is <big>Arthur</big> and I&#39;m a <strong>developer</strong>, a 20 years old Computer Science <strong>student</strong> at the Federal University of Minas Gerais in Brazil and an overall <strong>learner</strong>.</p>
+            <p><strong>Excellence</strong> and <strong>passion</strong> are the keys to success and a happy professional life. Being able to make things happen is maybe the greatest virtue of the ones taking a shot in the technology branch and the opportunity of making an being the difference is what drives us all.</p>
+            <p>As an active self-taught developer with many years of experience I can say that coding is one of the greatest passions I have in my life, next to music and language learning.</p>
+            <p>As an amateur designer, I’ve learned that the search for balance and beauty and these qualities themselves are what impress people.</p>
+          </div>
+
+          <div class="column column-50 pull-left">
+            <img class="avatar center hide-on-mobile" src="img/avatar.jpg" />
+            <p><strong>I love</strong> getting to know and working with new technologies and trends. The <strong>state of the art</strong> is my state.</p>
+            <p><strong>Node.JS</strong>, the new hype, is my favourite. I'm deeply interested in functional programming and all its capabilities, foremost, the ability to write simple yet powerful code, which one can easily verify and reason about.</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -71,7 +82,7 @@
                   <td><div class="round" style="background-image: url(img/education/tu-dortmund.jpg)"></div></td>
                   <td>
                     <h3>TU Dortmund</h3>
-                    <em>Sep 2014 - Sep 2015</em>
+                    <em>Sep 2014 &mdash; Sep 2015</em>
                     <p>Exchange student in Computer Science (Informatik) by the brazilian exchange program <abbr title="Ciência sem Fronteiras">Ciência sem Fronteiras</abbr>.</p>
                   </td>
                 </tr>
@@ -86,7 +97,7 @@
                   <td><div class="round" style="background-image: url(img/education/ufmg.jpg)"></div></td>
                   <td>
                     <h3>Universidade Federal de Minas Gerais</h3>
-                    <em>May 2013 - Dec 2017 (Expected)</em>
+                    <em>May 2013 &mdash; Dec 2017 (Expected)</em>
                     <p>Bachelor study in Computer Science.</p>
                   </td>
                 </tr>
@@ -101,7 +112,7 @@
                   <td><div class="round" style="background-image: url(img/education/cefet-mg.jpg)"></div></td>
                   <td>
                     <h3>CEFET-MG</h3>
-                    <em>May 2010 - Dec 2012</em>
+                    <em>May 2010 &mdash; Dec 2012</em>
                     <p>Technical High School in Computer Science.</p>
                   </td>
                 </tr>
@@ -123,15 +134,28 @@
       <div class="container center">
         <ul>
           <li>
+            <table>
+              <tr>
+                <td><div class="round" style="background-image: url(img/experience/bitfusion.png)"></div></td>
+                <td>
+                  <h3>UI and UX developer</h3>
+                  <em>Oct 2015 &mdash; today</em>
+                  <p>Full-stack freelance developer working in one the most prominent startup companies of the year. Main focus is UI and UX design and developement using AngularJS, HTML5 and CSS3.</p>
+                </td>
+              </tr>
+            </table>
+          </li>
+          <li><div class="vertical-dots"></div></li>
+          <li>
             <a href="https://github.com/arthur-xavier/modelr">
               <table>
                 <tr>
                   <td><div class="round" style="background-image: url(img/experience/modelr.png)"></div></td>
                   <td>
                     <h3>Scholarship Holder</h3>
-                    <em>Mar 2013 - Jun 2013</em>
+                    <em>Mar 2013 &mdash; Jun 2013</em>
                     <p>Development of a prototype mobile application for 3D model generation out of 2D sketches. Student of Professor Erickson Nascimento at the Federal University of Minas Gerais (UFMG).</p>
-                    <p>Mobile implementation of the methods described in the paper <em>Utilização de arte conceitual para geração de modelos 3D</em><small> - Renato Dias Viana*, Renato Antonio Celso Ferreira</small></p>
+                    <p>Mobile implementation of the methods described in the paper <em>Utilização de arte conceitual para geração de modelos 3D</em><small> &mdash; Renato Dias Viana*, Renato Antonio Celso Ferreira</small></p>
                   </td>
                 </tr>
               </table>
@@ -144,13 +168,13 @@
                 <tr>
                   <td><div class="round" style="background-image: url(img/experience/underwater.png)"></div></td>
                   <td>
-                    <h3>Scholarship Holder</h4>
-                    <em>Oct 2012 - Mar 2013</em>
+                    <h3>Scholarship Holder</h3>
+                    <em>Oct 2012 &mdash; Mar 2013</em>
                     <p>Research in Computer Graphics about Underwater Rendering. Student of Professor Erickson Nascimento at the Federal University of Minas Gerais (UFMG).</p>
                     <p>
                       Paper accepted in the ICPR 2014 Conference:
                       <br />
-                      <em>Generalized Optical Flow Model for Scattering Media</em><small> - Paulo Drews*, Erickson Nascimento, Arthur Xavier, Mario Montenegro Campos Campos</small>
+                      <em>Generalized Optical Flow Model for Scattering Media</em><small> &mdash; Paulo Drews*, Erickson Nascimento, Arthur Xavier, Mario Montenegro Campos Campos</small>
                     </p>
                   </td>
                 </tr>
@@ -164,26 +188,13 @@
                 <tr>
                   <td><div class="round" style="background-image: url(img/experience/oah.jpg)"></div></td>
                   <td>
-                    <h3>Winner of the Hostnet Algorithms Competition 2012 (OAH 2012)</h4>
+                    <h3>Winner of the Hostnet Algorithms Competition 2012 (OAH 2012)</h3>
                     <em>Sep 2012</em>
                     <p>Winner of the Olimpíada de Algoritmos Hostnet 2012, a national algorithms competition in Brazil, sponsored by a large web hosting company.</p>
                   </td>
                 </tr>
               </table>
             </a>
-          </li>
-          <li><div class="vertical-dots"></div></li>
-          <li>
-            <table>
-              <tr>
-                <td><div class="round" style="background-image: url(img/experience/web-development.jpg)"></div></td>
-                <td>
-                  <h3>Freelancer Web Developer</h4>
-                  <em>Jan 2011 - Sep 2012</em>
-                  <p>Worked in a few small web development projects.</p>
-                </td>
-              </tr>
-            </table>
           </li>
         </ul>
 
@@ -358,7 +369,7 @@
                 <tr>
                   <td><div class="round" style="background: url(img/portfolio/diamond.jpg) top left; background-size: cover"></div></td>
                   <td>
-                    <h3>diamond.js</h4>
+                    <h3>diamond.js</h3>
                     <em>Aug 2014</em>
                     <p>MVC web framework for node.js written in CoffeeScript.</p>
                   </td>
@@ -373,7 +384,7 @@
                 <tr>
                   <td><div class="round" style="background-image: url(img/portfolio/gravity.jpg)"></div></td>
                   <td>
-                    <h3>Gravity</h4>
+                    <h3>Gravity</h3>
                     <em>May 2014</em>
                     <p>Simple yet awesome HTML5 physics-based game.</p>
                   </td>
@@ -388,7 +399,7 @@
                 <tr>
                   <td><div class="round" style="background-image: url(img/portfolio/modelr.jpg)"></div></td>
                   <td>
-                    <h3>Modelr</h4>
+                    <h3>Modelr</h3>
                     <em>Jun 2014</em>
                     <p>Android application for automatic 3D model generation based on 2D sketches.</p>
                   </td>
@@ -403,7 +414,7 @@
                 <tr>
                   <td><div class="round" style="background-image: url(img/portfolio/barbarizantes.jpg)"></div></td>
                   <td>
-                    <h3>Barbarizantes</h4>
+                    <h3>Barbarizantes</h3>
                     <em>Oct 2013</em>
                     <p>Personal website for an elementary school student's project.</p>
                   </td>
@@ -438,7 +449,7 @@
       FOOTER
     -->
     <footer>
-      <table class="center">
+      <table class="center text-center">
         <tr>
           <td><a href="mailto:arthur.xavierx@gmail.com"><svg><use xlink:href="#icon-mail"></use></svg></a></td>
           <td><a href="https://www.facebook.com/arthur.xavierx"><svg><use xlink:href="#icon-facebook"></use></svg></a></td>
@@ -446,7 +457,7 @@
           <td><a href="https://github.com/arthur-xavier/"><svg><use xlink:href="#icon-github"></use></svg></a></td>
         </tr>
         <tr>
-          <td colspan="4" align="center"><small>&copy;2015 Arthur Xavier - All rights reserved</small></td>
+          <td colspan="4" align="center">&copy;2015 Arthur Xavier &mdash; All rights reserved</td>
         </tr>
       </table>
     </footer>
