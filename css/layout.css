@@ -89,10 +89,14 @@ body {
 #portfolio ul > li {
   text-align: left;
   display: inline-block;
-  width: 38rem;
+  max-width: 38rem;
   vertical-align: middle;
 }
 #portfolio ul > li .round { width: 100px; height: 100px; }
+
+@media screen and (max-width: 720px) {
+  #portfolio ul > li .round { width: 80px; height: 80px; }
+}
 
 
 /* LIST */
@@ -127,13 +131,15 @@ ul > li > a { color: inherit; }
 
 @media (max-width: 720px) {
   ul > li div.round {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
   ul > li h3 { font-size: 1.3em; font-weight: normal; }
   ul > li em { font-size: 0.9em; }
-  ul > li p { display: none; }
+  ul > li p { font-size: 0.8em; }
   .vertical-dots { margin: 0 50px; height: 55px; }
+
+  .hidden-small { display: none; }
 }
 
 
