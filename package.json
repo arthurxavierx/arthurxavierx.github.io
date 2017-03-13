@@ -1,7 +1,7 @@
 {
   "name": "arthur-xavier.github.io",
-  "version": "1.0.0",
-  "description": "Personal website and web portfolio.",
+  "version": "2.0.0",
+  "description": "Personal website and portfolio",
   "scripts": {
     "start": "python -m SimpleHTTPServer"
   },
