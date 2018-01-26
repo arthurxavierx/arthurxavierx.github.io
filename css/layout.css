@@ -8,3 +8,26 @@ body {
   padding: 0;
   height: 100%;
 }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column
+}
+
+header {
+  margin-top: -4.5rem;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-top: 2.5rem;
+  display: flex;
+  flex-flow: row;
+}
+
+nav > a {
+  margin: 0 1.6rem;
+}
