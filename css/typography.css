@@ -16,12 +16,12 @@ body {
 
 /** ANCHORS */
 a {
-  color: #F00;
+  color: #FF0000;
   text-decoration: none;
 }
 
 a:hover {
-  color: #1A1A1A;
+  color: #212121;
   text-decoration: underline;
 }
 
