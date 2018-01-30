@@ -39,6 +39,13 @@ h1 {
 }
 
 h4 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 0.3rem;
+}
+
+h5 {
   font-size: 1.7rem;
   font-weight: 400;
   line-height: 1.0;
@@ -54,18 +61,41 @@ nav {
 }
 
 
+/** LISTS */
+ul.no-bullet {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul > li {
+  margin: 0.3rem 0 1.8rem;
+}
+
+
+/** COPY */
+p {
+  line-height: 1.3;
+  margin: 0.3rem 0 0.9rem;
+}
+
+
 /** phone */
 @media (max-width: 767px) {
   h1 { font-size: 2.8rem; }
-  h4 { font-size: 1.27rem; }
+  h4 { font-size: 1.5rem; }
+  h5 { font-size: 1.27rem; }
   nav { font-size: 0.9rem; }
+  p { font-size: 1.27rem; }
   .flourish { width: 20.0rem; }
 }
 
 /** tablet */
 @media (min-width: 768px) and (max-width: 1025px) {
   h1 { font-size: 3.0rem; }
-  h4 { font-size: 1.42rem; }
+  h4 { font-size: 1.6rem; }
+  h5 { font-size: 1.42rem; }
   nav { font-size: 1.0rem; }
+  p { font-size: 1.33rem; }
   .flourish { width: 22.0rem; }
 }
