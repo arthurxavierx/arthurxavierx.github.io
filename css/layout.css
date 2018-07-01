@@ -2,18 +2,27 @@
 css/layout.css
 */
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
+  padding: 3.6rem 2.1rem 4.8rem;
   display: flex;
-  align-items: center;
+  flex-flow: column;
+  align-items: stretch;
   justify-content: center;
-  flex-flow: column
 }
 
 header {
@@ -32,7 +41,12 @@ nav > a {
 }
 
 article {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   margin-top: 3.6rem;
-  width: 80%;
-  max-width: 330px;
+}
+
+article > ul {
+  max-width: 36.0rem;
 }
