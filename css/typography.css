@@ -75,10 +75,25 @@ ul > li {
 
 /** COPY */
 p {
+  clear: both;
   line-height: 1.3;
   margin: 0.3rem 0 0.6rem;
 }
 
+h4 {
+  float: left;
+}
+
+.date {
+  float: right;
+  color: #666666;
+}
+
+.date > .month {
+  font-variant: small-caps;
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+}
 
 /** phone */
 @media (max-width: 767px) {
