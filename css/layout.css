@@ -34,6 +34,7 @@ nav {
   margin-top: 2.7rem;
   display: flex;
   flex-flow: row;
+  justify-content: center;
 }
 
 nav > a {
