@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
-    <meta name="theme-color" content="#FAFAFA">
+    <meta name="theme-color" content="#FFFFFF">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
@@ -13,27 +14,39 @@
 
     <link href="css/layout.css" rel="stylesheet" type="text/css" />
     <link href="css/typography.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i" rel="stylesheet" type="text/css" />
+    <link href="img/favicon.png" rel="icon" type="image/png">
+
+    <style type="text/css">
+      body {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        /* Optical centering */
+        padding-top: 1.8rem;
+      }
+    </style>
   </head>
 
   <body>
+
     <header>
-      <h5>&mdash; Arthur Xavier &mdash;</h5>
-      <h1>Under development</h1>
-      <img class="flourish" src="img/flourish.svg" alt="" />
+      <h1><span class="accent">&mdash;</span> Arthur Xavier <span class="accent">&mdash;</span></h1>
+      <nav style="text-transform: lowercase">
+        <ul class="line">
+          <li><a href="resume.html">Résumé</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="talks.html">Talks</a></li>
+        </ul>
+        <ul class="line">
+          <li><a href="mailto:arthur.xavierx@gmail.com">Email</a></li>
+          <li><a target="_blank" href="//github.com/arthurxavierx">Github</a></li>
+          <li><a target="_blank" href="//twitter.com/arthurxavierx">Twitter</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <nav>
-      <a target="_blank" href="resume.pdf">Résumé</a>
-      &middot;
-      <a href="projects.html">Projects</a>
-      &middot;
-      <a href="//github.com/arthurxavierx/talks/blob/master/README.md">Talks</a>
-      &middot;
-      <a href="//github.com/arthurxavierx">Github</a>
-      &middot;
-      <a href="//twitter.com/arthurxavierx">Twitter</a>
-    </nav>
   </body>
 </html>

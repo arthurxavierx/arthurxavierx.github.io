@@ -1,0 +1,78 @@
+body {
+  max-width: 60.0rem;
+}
+
+body > header {
+  margin: 0 0 3.0rem;
+}
+
+nav a {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav ul {
+  justify-content: center;
+}
+
+nav ul > li {
+  margin: 0 0.2rem 0 0;
+}
+
+nav ul > li::before {
+  content: "•";
+  margin: 0 0.2rem 0 0;
+}
+
+header h5 {
+  margin-top: 0.66em;
+}
+
+article {
+  margin: 0;
+  page-break-inside: avoid;
+}
+
+section > h3,
+.align {
+  margin-left: 13.2rem;
+}
+
+article > header {
+  display: flex;
+  flex-flow: row;
+  align-items: baseline;
+}
+
+article address {
+  margin: -0.43em 0 0.43em;
+}
+
+article > header aside {
+  flex: 0 0 12.0rem;
+  order: -1;
+  margin: 0 1.2rem 0 0;
+  text-align: end;
+}
+
+@media screen and (max-width: 799px) {
+  section > h3,
+  .align {
+    margin-left: 0;
+  }
+
+  article > header {
+    flex-flow: column;
+    align-items: flex-start;
+  }
+
+  article > header aside {
+    flex: auto;
+    order: initial;
+    margin: 0;
+    text-align: start;
+  }
+}

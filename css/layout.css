@@ -1,7 +1,3 @@
-/*
-css/layout.css
-*/
-
 * {
   box-sizing: border-box;
 }
@@ -18,36 +14,104 @@ body {
 }
 
 body {
-  padding: 3.6rem 2.1rem 4.8rem;
-  display: flex;
-  flex-flow: column;
-  align-items: stretch;
-  justify-content: center;
+  /* Optical centering */
+  padding: 3.6rem 2.4rem 6.0rem 1.8rem;
+
+  max-width: 72.0rem;
+  margin: 0 auto;
+
+  overflow: visible;
 }
 
-header {
+body > header {
   text-align: center;
+}
+
+header,
+section {
+  width: 100%;
+}
+
+main {
+  max-width: 48.0rem;
+  margin: 0 auto;
 }
 
 nav {
   text-align: center;
-  margin-top: 2.7rem;
   display: flex;
   flex-flow: row;
+  align-items: center;
   justify-content: center;
 }
 
-nav > a {
-  margin: 0 1.2rem;
+ul.line {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin: 0;
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+ul.line > li {
+  margin: 0 0 0 1.2rem;
+}
+
+ul.line > li::before {
+  content: "•";
+  margin-right: 1.2rem;
+}
+
+ul.line.compact > li {
+  margin-left: 0.8rem;
+}
+
+ul.line.compact > li::before {
+  margin-right: 0.8rem;
+}
+
+ul.line > li:first-of-type {
+  margin-left: 0;
+}
+
+ul.line + ul.line > li:first-of-type {
+  margin-left: 1.2rem;
+}
+
+ul.line + ul.line.compact > li:first-of-type {
+  margin-left: 0.8rem;
+}
+
+ul.line:first-of-type > li:first-of-type::before {
+  content: "";
+  margin: 0;
 }
 
 article {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  margin-top: 3.6rem;
+  margin-top: 2.4rem;
 }
 
-article > ul {
-  max-width: 36.0rem;
+@media screen and (max-width: 799px) {
+  nav {
+    flex-flow: column;
+  }
+
+  ul.line:not(:last-child) {
+    margin-bottom: 0.6rem;
+  }
+
+  ul.line > li:first-of-type {
+    margin-left: 0 !important;
+  }
+
+  ul.line > li:first-of-type::before {
+    content: "";
+    margin: 0;
+  }
+}
+
+footer {
+  page-break-after: always;
 }

@@ -1,14 +1,14 @@
 {
-  "name": "arthur-xavier.github.io",
-  "version": "2.0.0",
+  "name": "arthurxavierx.github.io",
+  "version": "3.0.0",
   "description": "Personal website and portfolio",
   "scripts": {
-    "start": "python -m SimpleHTTPServer"
+    "start": "python -m SimpleHTTPServer 80"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arthur-xavier/arthur-xavier.github.io"
+    "url": "https://github.com/arthurxavierx/arthurxavierx.github.io"
   },
   "author": "Arthur Xavier <arthur.xavierx@gmail.com>",
-  "homepage": "http://arthur-xavier.github.io"
+  "homepage": "http://arthurxavierx.github.io"
 }
