@@ -35,8 +35,7 @@ section {
 }
 
 main {
-  max-width: 60rem;
-  margin: 4.2rem auto;
+  margin: 4.2rem auto 0;
 }
 
 .column {
@@ -77,6 +76,7 @@ ul.line > li::before {
   margin-right: var(--line-margin);
 }
 
+footer ul.line,
 ul.line.compact {
   --line-margin: 0.7rem;
 }
@@ -99,18 +99,20 @@ ul + ul.line > li:first-of-type::before {
   margin-right: var(--line-margin);
 }
 
-ul + ul.break > li:first-of-type {
+ul + ul.break > li:first-of-type,
+li + li.break {
   margin-left: 1.1rem;
 }
 
-ul + ul.break > li:first-of-type::before {
+ul + ul.break > li:first-of-type::before,
+li + li.break::before {
   content: "|";
   color: var(--color-muted);
   margin-right: 1.1rem;
 }
 
 article {
-  margin: 1.6rem 0;
+  margin: 1.8rem 0;
 }
 
 .align {
@@ -124,7 +126,7 @@ article > header {
   margin: 0 0 0.22em;
 }
 
-article > header aside {
+article aside {
   flex: 0 0 calc(var(--align-margin) - 1.2rem);
   order: -1;
   margin: 0.23em 1.2rem 0 0;
@@ -133,6 +135,23 @@ article > header aside {
 
 article p ~ footer {
   margin-top: -0.3rem;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  max-width: 100%;
+  display: block;
+}
+
+figure > figcaption {
+  font-size: 1.35rem;
+  font-style: italic;
+  color: var(--color-muted);
+  text-align: center;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 799px) {

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
@@ -11,6 +11,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <title>Arthur Xavier / etc</title>
+    <link rel="alternate" hreflang="pt-BR" href="../etc.html" />
 
     <link href="../favicon.png" rel="icon" type="image/png">
     <link href="../css/layout.css" rel="stylesheet" type="text/css" />
@@ -23,15 +24,12 @@
     <header>
       <h1>Arthur Xavier</h1>
       <nav>
-        <ul class="line compact">
+        <ul class="line">
           <li><a href="bio.html">bio</a></li>
           <li><a href="music.html">music</a></li>
-          <li><a href="writing.html">writing</a></li>
+          <li><a href="text.html">text</a></li>
           <li><a class="active" href="etc.html">etc</a></li>
-          <li><a href="contact.html">contact</a></li>
-        </ul>
-        <ul class="break line">
-          <li><a href="../etc.html">português</a></li>
+          <li class="break"><a href="../etc.html">português</a></li>
         </ul>
       </nav>
     </header>
@@ -39,7 +37,7 @@
     <section>
       <h3 class="align">Other projects</h3>
 
-      <article>
+      <article id="contourlines">
         <header>
           <h5>Contour Lines</h5>
           <aside><time datetime="2018-02"><span>feb</span> 2018</time></aside>
@@ -59,7 +57,7 @@
         </div>
       </article>
 
-      <article>
+      <article id="reversehighway">
         <header>
           <h5>Reverse Highway</h5>
           <aside><time datetime="2018-01"><span>jan</span> 2018</time></aside>
@@ -78,7 +76,7 @@
         </div>
       </article>
 
-      <article>
+      <article id="gravity">
         <header>
           <h5>Gravity</h5>
           <aside><time datetime="2014-12"><span>dec</span> 2014</time></aside>
@@ -103,7 +101,7 @@
     <section>
       <h3 class="align">Coding</h3>
 
-      <article>
+      <article id="vim-caser">
         <header>
           <h5>vim-caser</h5>
           <aside><time datetime="2018-09"><span>sep</span> 2018</time></aside>
@@ -123,7 +121,7 @@
         </div>
       </article>
 
-      <article>
+      <article id="corss">
         <header>
           <h5>CoRSS</h5>
           <aside><time datetime="2018-06"><span>jun</span> 2018</time></aside>
@@ -132,7 +130,7 @@
           <p>
             Real-world RSS feed reader written in PureScript for the second part
             of my bachelor thesis:
-            <a target="_blank" href="../publications/XAVIER 2018. A Real-World Application with a Comonadic User Interface.pdf">A Real-World Application with a Comonadic User Interface</a>.
+            <a target="_blank" href="../text/XAVIER 2018. A Real-World Application with a Comonadic User Interface.pdf">A Real-World Application with a Comonadic User Interface</a>.
           </p>
           <footer>
             <ul class="line compact">
@@ -142,7 +140,7 @@
         </div>
       </article>
 
-      <article>
+      <article id="comonadic-todos">
         <header>
           <h5>Comonadic TODOs</h5>
           <aside><time datetime="2017-11"><span>nov</span> 2017</time></aside>
@@ -150,7 +148,7 @@
         <div class="align">
           <p>
             Simple task management application written in PureScript for the first
-            part of my bachelor thesis (<a target="_blank" href="../publications/XAVIER 2017. Comonads for User Interfaces.pdf">Comonads for User Interfaces</a>)
+            part of my bachelor thesis (<a target="_blank" href="../text/XAVIER 2017. Comonads for User Interfaces.pdf">Comonads for User Interfaces</a>)
             with three different UI architectures modelled under the same approach.
           </p>
           <p>
@@ -165,7 +163,7 @@
         </div>
       </article>
 
-      <article>
+      <article id="modelr">
         <header>
           <h5>Modelr</h5>
           <aside><time datetime="2014-06"><span>jun</span> 2014</time></aside>
@@ -188,8 +186,8 @@
     <section>
       <h3 class="align">Tech talks</h3>
 
-      <article>
-        <header id="talk20190618">
+      <article id="talk20190618">
+        <header>
           <div>
             <h5>Type-safe embedded domain-specific languages</h5>
             <address><a target="_blank" href="https://2019.monadic.party/">Monadic Party 2019</a>, Poland</address>

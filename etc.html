@@ -11,6 +11,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <title>Arthur Xavier / etc</title>
+    <link rel="alternate" hreflang="en" href="en/etc.html" />
 
     <link href="favicon.png" rel="icon" type="image/png">
     <link href="css/layout.css" rel="stylesheet" type="text/css" />
@@ -23,15 +24,12 @@
     <header>
       <h1>Arthur Xavier</h1>
       <nav>
-        <ul class="line compact">
+        <ul class="line">
           <li><a href="bio.html">bio</a></li>
           <li><a href="music.html">música</a></li>
-          <li><a href="writing.html">escrita</a></li>
+          <li><a href="text.html">texto</a></li>
           <li><a class="active" href="etc.html">etc</a></li>
-          <li><a href="contact.html">contato</a></li>
-        </ul>
-        <ul class="break line">
-          <li><a href="en/etc.html">english</a></li>
+          <li class="break"><a href="en/etc.html">english</a></li>
         </ul>
       </nav>
     </header>
@@ -39,7 +37,7 @@
     <section>
       <h3 class="align">Outros projetos</h3>
 
-      <article>
+      <article id="contourlines">
         <header>
           <h5>Linhas de contorno</h5>
           <aside><time datetime="2018-02"><span>fev</span> 2018</time></aside>
@@ -59,7 +57,7 @@
         </div>
       </article>
 
-      <article>
+      <article id="reversehighway">
         <header>
           <h5>Reverse Highway</h5>
           <aside><time datetime="2018-01"><span>jan</span> 2018</time></aside>
@@ -69,7 +67,7 @@
             Experimento de visualização de áudio interativa em WebGL.
           </p>
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://arthurxavierx.github.io/reverse-highway">Ver</a></li>
               <li><a target="_blank" href="https://github.com/arthurxavierx/reverse-highway">Código</a></li>
             </ul>
@@ -77,7 +75,7 @@
         </div>
       </article>
 
-      <article>
+      <article id="gravity">
         <header>
           <h5>Gravity</h5>
           <aside><time datetime="2014-12"><span>dez</span> 2014</time></aside>
@@ -89,7 +87,7 @@
             <em>Somente desktop.</em>
           </p>
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://arthurxavierx.github.io/gravity">Ver</a></li>
               <li><a target="_blank" href="https://github.com/arthurxavierx/gravity">Código</a></li>
             </ul>
@@ -102,7 +100,7 @@
     <section>
       <h3 class="align">Programação</h3>
 
-      <article>
+      <article id="vim-caser">
         <header>
           <h5>vim-caser</h5>
           <aside><time datetime="2018-09"><span>set</span> 2018</time></aside>
@@ -114,14 +112,14 @@
             o modo visual.
           </p>
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://github.com/arthurxavierx/vim-caser">Código</a></li>
             </ul>
           </footer>
         </div>
       </article>
 
-      <article>
+      <article id="corss">
         <header>
           <h5>CoRSS</h5>
           <aside><time datetime="2018-06"><span>jun</span> 2018</time></aside>
@@ -130,17 +128,17 @@
           <p>
             Leitor de feed RSS escrito em PureScript como demonstração de um modelo de interfaces
             baseado em <em>comonads</em> para a segunda parte de meu trabalho de conclusão de curso:
-            <a target="_blank" href="https://arthurxavierx.github.io/publications/XAVIER 2018. A Real-World Application with a Comonadic User Interface.pdf">A Real-World Application with a Comonadic User Interface</a>.
+            <a target="_blank" href="https://arthurxavierx.github.io/text/XAVIER 2018. A Real-World Application with a Comonadic User Interface.pdf">A Real-World Application with a Comonadic User Interface</a>.
           </p>
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://github.com/arthurxavierx/purescript-comonad-rss">Código</a></li>
             </ul>
           </footer>
         </div>
       </article>
 
-      <article>
+      <article id="comonadic-todos">
         <header>
           <h5>Comonadic TODOs</h5>
           <aside><time datetime="2017-11"><span>nov</span> 2017</time></aside>
@@ -149,7 +147,7 @@
           <p>
             Aplicação de gerenciamento de tarefas escrita em PureScript para a primeira parte
             de meu trabalho de conclusão de curso
-            (<a target="_blank" href="https://arthurxavierx.github.io/publications/XAVIER 2017. Comonads for User Interfaces.pdf">Comonads for User Interfaces</a>)
+            (<a target="_blank" href="https://arthurxavierx.github.io/text/XAVIER 2017. Comonads for User Interfaces.pdf">Comonads for User Interfaces</a>)
             com três diferentes arquiteturas de interface de usuário modeladas com a mesma
             abordagem baseada em <em>comonads</em>.
           </p>
@@ -158,14 +156,14 @@
             <a target="_blank" href="https://blog.functorial.com/posts/2016-08-07-Comonads-As-Spaces.html">Comonads as spaces</a>.
           </p>
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://github.com/arthurxavierx/purescript-comonad-ui-todos">Código</a></li>
             </ul>
           </footer>
         </div>
       </article>
 
-      <article>
+      <article id="modelr">
         <header>
           <h5>Modelr</h5>
           <aside><time datetime="2014-06"><span>jun</span> 2014</time></aside>
@@ -175,7 +173,7 @@
             Aplicativo Android para a geração de modelos 3D a partir de rascunhos bidimensionais.
           </p>
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://github.com/arthurxavierx/modelr">Código</a></li>
             </ul>
           </footer>
@@ -187,8 +185,8 @@
     <section>
       <h3 class="align">Palestras e workshops</h3>
 
-      <article>
-        <header id="talk20190618">
+      <article id="talk20190618">
+        <header>
           <div>
             <h5>Type-safe embedded domain-specific languages</h5>
             <address><a target="_blank" href="https://2019.monadic.party/">Monadic Party 2019</a>, Polônia</address>
@@ -205,7 +203,7 @@
             e simplicidade para o desenvolvimento de aplicações complexas.
           </p>
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://www.slideshare.net/ArthurXavier7/type-safe-embedded-domainspecific-languages-182775383">Slides</a></li>
               <li><a target="_blank" href="https://github.com/arthurxavierx/monadic-party-edsl">Workshop</a></li>
               <li><a target="_blank" href="https://www.youtube.com/watch?v=4sTeT7poU3g&list=PLcAu_kKy-krxDD1WwRX_9rc0knAFK3nHs&index=54">Vídeos</a></li>
@@ -231,7 +229,7 @@
             garantir comple&shy;xidade sem dificuldade.
           </p>
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://www.slideshare.net/ArthurXavier7/sobre-programas-e-funcoes-pensando-em-abstrao">Slides</a></li>
               <li><a target="_blank" href="https://www.youtube.com/watch?v=9cFSihtXq_k">Vídeo</a></li>
             </ul>
@@ -251,7 +249,7 @@
         </header>
         <div class="align">
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://www.slideshare.net/ArthurXavier7/programacao-funcional-em-javascript-como-e-por-qu">Slides</a></li>
               <li><a target="_blank" href="https://www.youtube.com/watch?v=k07DBTYj9w8&index=6&list=PLASrXUpwQG6cVIgm9kZAs6DW6ZzumJBeT">Vídeo</a></li>
             </ul>
@@ -271,7 +269,7 @@
         </header>
         <div class="align">
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://www.slideshare.net/ArthurXavier7/programao-funcional-tipada-uma-introduo">Slides</a></li>
               <li><a target="_blank" href="https://github.com/arthur-xavier/workshop-intro-fp-elm">Workshop</a> &nbsp;(incompleto)</li>
             </ul>
@@ -301,7 +299,7 @@
             estes podem ajudar no desenvolvimento de aplicações mais corretas.
           </p>-->
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://www.youtube.com/watch?v=woYESPuwmNo">Vídeo</a></li>
             </ul>
           </footer>
@@ -328,7 +326,7 @@
             Venha conhecer então PureScript e a biblioteca Pux!
           </p>-->
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://www.slideshare.net/ArthurXavier7/purescript-pux">Slides</a></li>
             </ul>
           </footer>
@@ -363,7 +361,7 @@
             está crescendo em ritmo acelerado.
           </p>-->
           <footer>
-            <ul class="line compact">
+            <ul class="line">
               <li><a target="_blank" href="https://arthurxavierx.github.io/talks/front-end-fp-elm/">Slides</a></li>
             </ul>
           </footer>
