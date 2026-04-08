@@ -2,7 +2,6 @@
   font-family: "Vollkorn";
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
   src: url("Vollkorn-Regular.ttf") format("truetype");
 }
 
@@ -10,7 +9,6 @@
   font-family: "Vollkorn";
   font-style: italic;
   font-weight: 400;
-  font-display: swap;
   src: url("Vollkorn-Italic.ttf") format("truetype");
 }
 
@@ -18,7 +16,6 @@
   font-family: "Vollkorn";
   font-style: normal;
   font-weight: 500;
-  font-display: swap;
   src: url("Vollkorn-Medium.ttf") format("truetype");
 }
 
@@ -26,7 +23,6 @@
   font-family: "Vollkorn";
   font-style: italic;
   font-weight: 500;
-  font-display: swap;
   src: url("Vollkorn-MediumItalic.ttf") format("truetype");
 }
 
@@ -34,7 +30,6 @@
   font-family: "Vollkorn";
   font-style: normal;
   font-weight: 600;
-  font-display: swap;
   src: url("Vollkorn-SemiBold.ttf") format("truetype");
 }
 
@@ -42,7 +37,6 @@
   font-family: "Vollkorn";
   font-style: italic;
   font-weight: 600;
-  font-display: swap;
   src: url("Vollkorn-SemiBoldItalic.ttf") format("truetype");
 }
 
@@ -50,7 +44,6 @@
   font-family: "Vollkorn";
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
   src: url("Vollkorn-Bold.ttf") format("truetype");
 }
 
@@ -58,6 +51,5 @@
   font-family: "Vollkorn";
   font-style: italic;
   font-weight: 700;
-  font-display: swap;
   src: url("Vollkorn-BoldItalic.ttf") format("truetype");
 }
