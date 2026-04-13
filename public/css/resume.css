@@ -10,8 +10,8 @@
 }
 
 body {
-  max-width: 63rem;
-  --align-margin: 16.2rem;
+  max-width: 65rem;
+  --align-margin: 15rem;
 }
 
 body > header {

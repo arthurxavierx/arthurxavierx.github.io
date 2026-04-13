@@ -22,16 +22,12 @@ html {
 }
 
 body {
-  font-family: Vollkorn, Georgia, "Times New Roman", serif;
-  font-size: 1.5em;
+  font-family: "JetBrains Mono", Vollkorn, Georgia, "Times New Roman", serif;
+  font-size: 1.25em;
   font-weight: 400;
-  line-height: 1.33em;
+  line-height: 1.43em;
   background: var(--background);
   color: var(--color-primary);
-}
-
-article {
-  text-align: justify;
 }
 
 /** ANCHORS */
@@ -74,7 +70,7 @@ h6 {
 }
 
 h1 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.5;
   margin: 0.5em 0 0.5em;
@@ -91,7 +87,7 @@ h1:after {
 }
 
 h2 {
-  font-size: 2.1rem;
+  font-size: 1.9rem;
   font-style: italic;
   font-weight: 400;
   color: var(--color-muted);
@@ -104,21 +100,21 @@ h1 + h2 {
 }
 
 h3 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.3;
   margin: 2em 0 0.33em;
 }
 
 h4 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.3;
   margin: 1em 0 0.2222em;
 }
 
 h5 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   line-height: 1.35;
   margin: 1.5em 0 0.3125em;
@@ -131,8 +127,7 @@ header h5 {
 
 h6,
 address {
-  font-family: Vollkorn, Georgia, "Times New Roman", serif;
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   font-weight: 400;
   font-style: italic;
   color: var(--color-link);
@@ -141,7 +136,7 @@ address {
 
 /** NAV */
 nav {
-  font-size: 1.35rem;
+  font-size: 1.2rem;
 }
 
 nav a {
@@ -154,7 +149,7 @@ nav a:hover {
 
 /** FOOTER */
 footer {
-  font-size: 1.35rem;
+  font-size: 1.2rem;
 }
 
 footer a {
@@ -166,6 +161,7 @@ ul,
 ol {
   padding-inline-start: 1.1em;
   margin: 0;
+  text-align: start;
 }
 
 ul > li,
@@ -181,7 +177,7 @@ ol li::marker {
 /** COPY */
 p {
   clear: both;
-  margin: 0.22em 0 0.66em;
+  margin: 0.22em 0 1em;
   text-align: justify;
 }
 
@@ -190,7 +186,7 @@ article p {
 }
 
 small {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .accent {
@@ -204,15 +200,6 @@ small {
 time {
   flex: none;
   color: var(--color-secondary);
-  font-size: 1.3rem;
-}
-
-time > span {
   font-size: 1.1rem;
   text-transform: uppercase;
-}
-
-img.link {
-  width: 1.2rem;
-  margin: 0 0.15em 0;
 }
