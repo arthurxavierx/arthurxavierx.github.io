@@ -4,7 +4,7 @@ dnl vim: ft=htmlm4
 
 HTML_ARTICLE(
   [],
-  [__([Guitarrista na Cefart Big Band], [Guitarist at the Cefart Big Band])],
+  [__([Guitarrista na Cefart Big Band], [Guitarist for the Cefart Big Band])],
   [HTML_LINK([Centro de Formação Artística e Tecnológica], [https://fcs.mg.gov.br/formacao-artistica/])],
   [HTML_DATE(2022, 02) &ndash; HTML_DATE(2023, 06)],
   [__(
@@ -15,8 +15,8 @@ HTML_ARTICLE(
       e no <a target="_blank" href="https://fcs.mg.gov.br/">Grande Teatro do Palácio das Artes</a>, em Belo Horizonte.
     </p>],
     [<p>
-      Featured as guitarist in the Cefart Big Band, an extension project of Palácio das Artes.
-      Presented in many shows with the band, including venues such as
+      Featured as a guitarist for the Cefart Big Band, an extension project of Palácio das Artes.
+      Played in many shows with the band, at venues such as
       <a target="_blank" href="https://www.clubedejazzdocafe.com/">Clube de Jazz do Café com Letras</a>
       and the Great Theather of <a target="_blank" href="https://fcs.mg.gov.br/">Palácio das Artes</a>,
       in Belo Horizonte, Brazil.
@@ -31,8 +31,8 @@ HTML_ARTICLE(
   [HTML_DATE(2021, 10) &ndash; HTML_DATE(2023, 04)],
   [__(
     [<p>
-      Desenvolvedor remoto de uma plataforma interna para criação e monitoramento de campanhas
-      de marketing. Trabalhou na refatoração e melhoria das bases de código da empresa.
+      Desenvolvedor remoto de uma plataforma in&shy;terna para criação e monitoramento de cam&shy;panhas
+      de marketing. Trabalhou na refato&shy;ração e melhoria das bases de código da empresa.
     </p>],
     [<p>
       Worked with a remote team on an internal ad-tech platform written in PureScript,
@@ -49,13 +49,13 @@ HTML_ARTICLE(
   [__(
     [<p>
       Trabalhou com um time distribuído e remoto no desen&shy;volvimento de ferramentas internas,
-      e na concepção, construção e manutenção de uma plataforma de marketplace para manu&shy;fatura de
-      embalagens sob encomenda.
+      e na concepção, construção e manu&shy;ten&shy;ção de uma plataforma de marketplace para manu&shy;fatura de
+      emba&shy;lagens sob encomenda.
     </p>],
     [<p>
       Worked with a distributed and remote team on internal adminis&shy;tration tools and
-      from conception to release and maintenance on a marketplace for custom-manufactured
-      packaging.
+      from con&shy;ception to release and maintenance on a marketplace for custom-manufactured
+      pack&shy;aging.
     </p>]
   )]
 )
@@ -67,11 +67,11 @@ HTML_ARTICLE(
   [HTML_DATE(2018, 02) &ndash; HTML_DATE(2018, 07)],
   [__(
     [<p>
-      Desenvolvedor líder de uma plataforma web de CRM e ponto de venda, construída
-      com React e Firebase do protótipo à produção.
+      Desenvolvedor líder de uma plataforma de CRM e ponto de ven&shy;da, construída
+      com React e Firebase do protótipo à pro&shy;dução.
     </p>],
     [<p>
-      Lead developer of a successful CRM and point of sale web platform built
+      Lead developer of a successful CRM and point of sale platform built
       with React and Firebase from prototype to production.
     </p>]
   )]
@@ -89,7 +89,7 @@ HTML_ARTICLE(
     </p>],
     [<p>
       Lead front-end developer of the <a target="_blank" href="https://portal.blip.ai">blip.ai</a>
-      portal, a platform for creation and management of chatbots written in JavaScript with Angular.
+      portal, a platform for creation and man&shy;agement of chatbots written in JavaScript with Angular.
     </p>]
   )]
 )

@@ -10,12 +10,12 @@ HTML_ARTICLE(
   [__(
     [<p>
       Curso online associado ao 24º Encontro Internacional de Arte e Tecnologia que reuniu
-      artistas e pesquisadores para investigar o colapso do antropocentrismo e a emergência
+      artistas e pesquisadores para inves&shy;tigar o colapso do antropocentrismo e a emergência
       de novas alianças entre espécies, linguagens e inteligências.
     </p>],
     [<p>
       Online classes associated with the 24º Encontro Internacional de Arte e Tecnologia,
-      in Brasília, Brazil, where artists, thinkers, scientists and designers investigate
+      in Brasília, Brazil, where artists, thinkers, scientists and designers investi&shy;gate
       the collapse of anthropocentrism and the emergence of new alliances between species,
       languages and intelligences.
     </p>]
@@ -30,13 +30,13 @@ HTML_ARTICLE(
   [__(
     [<p>
       Formação para DJs e produtores musicais conduzidas pelo produtor Felipe Pomar, pela
-      DJ anglo-nigeriana Kem Kem e pelo antropólogo Dennis Novaes, que buscou aproximar
+      DJ anglo-nigeriana Kem Kem e pelo antro&shy;pólogo Dennis Novaes, que buscou aproximar
       a linguagem dos <em>afrobeats</em> da música eletrônica e popular do Brasil.
     </p>],
     [<p>
-      Jornadas de formação para DJs e produtores musicais conduzidas pelo produtor baiano Felipe Pomar,
-      pela DJ anglo-nigeriana Kem Kem e pelo antropólogo Dennis Novaes, que buscou aproximar
-      a linguagem dos <em>afrobeats</em> da música eletrônica e popular do Brasil.
+      Course for DJs and musical producers conducted by brazilian producer Felipe Pomar, british-nigerian
+      DJ Kem Kem, and anthropologist Dennis Novaes, that related the language of <em>afrobeats</em>
+      to the popular electronic music of Brazil.
     </p>]
   )]
 )
@@ -52,8 +52,8 @@ HTML_ARTICLE(
       poéticos relacionados ao conceito de <em>ficção sônica</em> cunhado pelo pesquisador Kodwo Eshun.
     </p>],
     [<p>
-      Curso ministrado por Anti Ribeiro, em que se discutiu o som em seus aspectos físicos e poéticos relacionados
-      ao conceito cunhado pelo pesquisador Kodwo Eshun.
+      Course by Anti Ribeiro, which discussed the sound in its physical and poetical aspects, relating it
+      to the <em>sonic fiction</em> concept created by Kodwo Eshun.
     </p>]
   )]
 )
@@ -69,25 +69,8 @@ HTML_ARTICLE(
       professores Ajítẹnà Marco Scarassatti, Marcos Balter e Michelle Agnès Magalhães.
     </p>],
     [<p>
-      Curso de aperfeiçoamento do Conservatório de Tatuí ministrado pelos professores Ajítẹnà Marco Scarassatti,
-      Marcos Balter e Michelle Agnès Magalhães, perfazendo um total de 48 horas de atividades.
-    </p>]
-  )]
-)
-
-HTML_ARTICLE(
-  [],
-  [Síntese – Derivações poéticas: som, espaço e a imagem],
-  [HTML_LINK([Centro Cultural UFMG], [https://www.ufmg.br/centrocultural/])],
-  [HTML_DATE(2024, 07)],
-  [__(
-    [<p>
-      Colóquio internacional mediado por Fabrício Fernandino na programação do 56º Festival
-      de Inverno da UFMG.
-    </p>],
-    [<p>
-      Colóquio internacional mediado por Fabrício Fernandino na programação do 56º Festival
-      de Inverno da UFMG.
+      48-hour long course by the Tatuí Conservatory of Music by professors Ajítẹnà Marco Scarassatti,
+      Marcos Balter, and Michelle Agnès Magalhães.
     </p>]
   )]
 )
