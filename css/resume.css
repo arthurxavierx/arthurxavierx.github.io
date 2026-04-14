@@ -1,0 +1,62 @@
+@media print {
+  @page {
+    size: A4;
+    margin: 20mm 19mm 17mm 19mm;
+  }
+
+  body {
+    padding: 0 0.7rem;
+  }
+}
+
+body {
+  max-width: 65rem;
+  --align-margin: 15rem;
+}
+
+body > header {
+  margin: 0 0 2.6rem;
+}
+
+nav a {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav ul {
+  justify-content: center;
+}
+
+nav ul > li {
+  margin: 0 0.2rem 0 0;
+}
+
+nav ul > li::before {
+  content: "•";
+  margin: 0 0.2rem 0 0;
+}
+
+h3 {
+  margin-top: 1.6em;
+}
+
+header h5 {
+  margin-top: 0.66em;
+}
+
+article {
+  margin: 0;
+}
+
+.summary {
+  margin-left: 1.62rem;
+}
+
+@media screen and (max-width: 799px) {
+  .summary {
+    margin-left: 0;
+  }
+}
