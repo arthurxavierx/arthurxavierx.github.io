@@ -4,8 +4,8 @@ HTML_BEGIN()
 
 HTML_HEADER()
 
-M4_INCLUDE(etc/other.html.m4)dnl
-M4_INCLUDE(etc/programming.html.m4)dnl
-M4_INCLUDE(etc/talks.html.m4)dnl
+M4_INCLUDE(etc/other.m4)dnl
+M4_INCLUDE(etc/programming.m4)dnl
+M4_INCLUDE(etc/talks.m4)dnl
 
 HTML_END()

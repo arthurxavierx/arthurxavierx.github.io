@@ -1,5 +1,4 @@
 M4_DEFINE([__PAGE__], [__([música], [music])])dnl
-M4_DEFINE([HTML_LI_LINK], [<li>HTML_LINK($1, $2)</li>])dnl
 HTML_BEGIN()
 
 HTML_HEADER()
@@ -25,7 +24,7 @@ HTML_ARTICLE(
       and Triz Tristão.
     </p>]
   )],
-  [HTML_LI_LINK([__([Vídeo], [Video])], [https://youtu.be/Bm3al7lJ3VQ])]
+  [HTML_LINK([__([Vídeo], [Video])], [https://youtu.be/Bm3al7lJ3VQ])]
 )dnl
 
 HTML_ARTICLE(
@@ -44,8 +43,8 @@ HTML_ARTICLE(
       <em>Imaginários Sonoros</em> concert, at <em>Conservatório UFMG</em>.
     </p>]
   )],
-  [HTML_LI_LINK([__([Partitura], [Sheet music])], [/music/Mercado de trabalho.pdf])]
-  [HTML_LI_LINK([__([Vídeo], [Video])], [https://youtu.be/Bm3al7lJ3VQ])]
+  [HTML_LINK([__([Partitura], [Sheet music])], [STATIC_FILE([music/Mercado_de_trabalho.pdf])])]
+  [HTML_LINK([__([Vídeo], [Video])], [https://youtu.be/Bm3al7lJ3VQ])]
 )dnl
 
 HTML_ARTICLE(
@@ -54,9 +53,9 @@ HTML_ARTICLE(
   [__([para duas flautas e vídeo], [for two flutes and video])],
   [HTML_DATE(2025, 11)],
   [],
-  [HTML_LI_LINK([__([Partitura], [Sheet music])], [/music/Meditação 1.pdf])]
-  [HTML_LI_LINK([__([Texto], [Article])], [/text/XAVIER 2025. Sobre 'Meditação 1' (2025), para duas flautas e vídeo.pdf])]
-  [HTML_LI_LINK([__([Vídeo], [Video])], [https://youtu.be/BeLnl9rga6c])]
+  [HTML_LINK([__([Partitura], [Sheet music])], STATIC_FILE([music/Meditação_1.pdf]))]
+  [HTML_LINK([__([Texto], [Article])], STATIC_FILE([text/xavier2025meditacao.pdf]))]
+  [HTML_LINK([__([Vídeo], [Video])], [https://youtu.be/BeLnl9rga6c])]
 )dnl
 
 HTML_ARTICLE(
@@ -65,7 +64,7 @@ HTML_ARTICLE(
   [__([para flauta], [for flute])],
   [HTML_DATE(2025, 11)],
   [],
-  [HTML_LI_LINK([__([Partitura], [Sheet music])], [/music/Momento 4.pdf])]
+  [HTML_LINK([__([Partitura], [Sheet music])], STATIC_FILE([music/Momento_4.pdf]))]
 )dnl
 
 HTML_ARTICLE(
@@ -74,8 +73,8 @@ HTML_ARTICLE(
   [__([para guitarra elétrica], [for electric guitar])],
   [HTML_DATE(2025, 09)],
   [],
-  [HTML_LI_LINK([__([Partitura], [Sheet music])], [/music/Momento 2.pdf])]
-  [HTML_LI_LINK([__([Áudio], [Audio])], [/music/Momento 2.mp3])]
+  [HTML_LINK([__([Partitura], [Sheet music])], STATIC_FILE([music/Momento_2.pdf]))]
+  [HTML_LINK([__([Áudio], [Audio])], STATIC_FILE([music/Momento_2.mp3]))]
 )dnl
 
 HTML_ARTICLE(
@@ -104,8 +103,8 @@ HTML_ARTICLE(
       in Fortaleza, Brazil, and by <em>Rádio UFES FM 87.1</em> in Vitória, Brazil.
     </p>]
   )],
-  [HTML_LI_LINK([__([Partitura], [Sheet music])], [/music/Ensaio para uma poética da máquina.pdf])]
-  [HTML_LI_LINK([__([Áudio], [Audio])], [/music/Ensaio para uma poética da máquina.mp3])]
+  [HTML_LINK([__([Partitura], [Sheet music])], STATIC_FILE([music/Ensaio_para_uma_poética_da_máquina.pdf]))]
+  [HTML_LINK([__([Áudio], [Audio])], STATIC_FILE([music/Ensaio_para_uma_poética_da_máquina.mp3]))]
 )dnl
 
 HTML_ARTICLE(
@@ -114,7 +113,7 @@ HTML_ARTICLE(
   [__([para quarteto de cordas], [for string quartet])],
   [HTML_DATE(2025, 02)],
   [],
-  [HTML_LI_LINK([__([Partitura], [Sheet music])], [/music/Máquina 1.pdf])]
+  [HTML_LINK([__([Partitura], [Sheet music])], STATIC_FILE([music/Máquina_1.pdf]))]
 )dnl
 
 HTML_ARTICLE(
@@ -123,8 +122,8 @@ HTML_ARTICLE(
   [__([para guitarra elétrica], [for electric guitar])],
   [HTML_DATE(2025, 01)],
   [],
-  [HTML_LI_LINK([__([Partitura], [Sheet music])], [/music/Momento 1.pdf])]
-  [HTML_LI_LINK([__([Áudio], [Audio])], [/music/Momento 1.mp3])]
+  [HTML_LINK([__([Partitura], [Sheet music])], STATIC_FILE([music/Momento_1.pdf]))]
+  [HTML_LINK([__([Áudio], [Audio])], STATIC_FILE([music/Momento_1.mp3]))]
 )dnl
 
 HTML_ARTICLE(
@@ -133,7 +132,7 @@ HTML_ARTICLE(
   [],
   [HTML_DATE(2024, 04)],
   [],
-  [HTML_LI_LINK([__([Lead sheet], [Lead sheet])], [/music/Caburu (lead sheet).pdf])]
+  [HTML_LINK([__([Lead sheet], [Lead sheet])], STATIC_FILE([music/Caburu_lead_sheet.pdf]))]
 )dnl
 
 HTML_ARTICLE(
@@ -142,8 +141,8 @@ HTML_ARTICLE(
   [choro para violão],
   [HTML_DATE(2023, 04)],
   [],
-  [HTML_LI_LINK([__([Partitura], [Sheet music])], [/music/Surrupião.pdf])]
-  [HTML_LI_LINK([__([Áudio], [Audio])], [/music/Surrupião.mp3])]
+  [HTML_LINK([__([Partitura], [Sheet music])], STATIC_FILE([music/Surrupião.pdf]))]
+  [HTML_LINK([__([Áudio], [Audio])], STATIC_FILE([music/Surrupião.mp3]))]
 )dnl
 
 </main>

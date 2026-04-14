@@ -1,3 +1,4 @@
+dnl vim: ft=htmlm4
 <section>
 <h3 class="align">__([Formação adicional], [Additional education])</h3>
 

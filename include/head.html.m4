@@ -12,7 +12,7 @@ __(
   [<link rel="alternate" hreflang="pt-BR" href="../__FILE__" />]
 )
 
-<link href="favicon.png" rel="icon" type="image/png" />
-<link href="__([], [../])css/layout.css" rel="stylesheet" type="text/css" />
-<link href="__([], [../])css/typography.css" rel="stylesheet" type="text/css" />
-<link href="__([], [../])fonts/JetBrainsMono.css" rel="stylesheet" type="text/css" />
+<link href="STATIC_FILE([favicon.png])" rel="icon" type="image/png" />
+<link href="STATIC_FILE([css/layout.css])" rel="stylesheet" type="text/css" />
+<link href="STATIC_FILE([css/typography.css])" rel="stylesheet" type="text/css" />
+<link href="STATIC_FILE([fonts/JetBrainsMono.css])" rel="stylesheet" type="text/css" />

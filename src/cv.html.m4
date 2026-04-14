@@ -1,7 +1,6 @@
 M4_DEFINE([__PAGE__], [__([currículo], [cv])])dnl
 M4_DEFINE([HTML_H6], [<address>$1</address>])dnl
-M4_DEFINE([HTML_LI_LINK], [<li>HTML_LINK($1, $2)</li>])dnl
-HTML_BEGIN([<link href="]__([], [../])[css/resume.css" rel="stylesheet" type="text/css">])
+HTML_BEGIN([<link href="STATIC_FILE([css/resume.css])" rel="stylesheet" type="text/css">])
 
 <header>
   <h1>Arthur Xavier</h1>
@@ -70,8 +69,8 @@ HTML_BEGIN([<link href="]__([], [../])[css/resume.css" rel="stylesheet" type="te
   </div>
 </section>
 
-M4_INCLUDE(cv/education.html.m4)dnl
-M4_INCLUDE(cv/additional.html.m4)dnl
-M4_INCLUDE(cv/professional.html.m4)dnl
+M4_INCLUDE(cv/education.m4)dnl
+M4_INCLUDE(cv/additional.m4)dnl
+M4_INCLUDE(cv/professional.m4)dnl
 
 HTML_END()

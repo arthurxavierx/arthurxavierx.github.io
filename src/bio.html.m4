@@ -36,7 +36,7 @@ HTML_HEADER()
 
 <p>
   <ul class="line">
-    <li><a href="cv.html">__([currículo], [cv])</a></li>
+    <li>INTERNAL_LINK(__([currículo], [cv]), [cv.html])</li>
   </ul>
 </p>
 

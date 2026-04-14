@@ -1,3 +1,4 @@
+dnl vim: ft=htmlm4
 M4_DEFINE([HTML_H6], [<address>[$1]</address>])dnl
 <section>
 <h3 class="align">__([Palestras e workshops], [Tech talks])</h3>

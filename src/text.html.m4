@@ -1,5 +1,4 @@
 M4_DEFINE([__PAGE__], [__([texto], [text])])dnl
-M4_DEFINE([LINK], [<li><a target="_blank" href="$2">$1</a></li>])dnl
 HTML_BEGIN()
 
 HTML_HEADER()
@@ -54,7 +53,7 @@ HTML_ARTICLE(
       at the Federal University of Minas Gerais, Brazil, advised by professor José Padovani.
     </p>]
   )],
-  [LINK([PDF], [/text/XAVIER 2025. Sobre 'Meditação 1' (2025), para duas flautas e vídeo.pdf])]
+  [HTML_LINK([PDF], STATIC_FILE([text/xavier2025meditacao.pdf]))]
 )dnl
 
 HTML_ARTICLE(
@@ -76,8 +75,8 @@ HTML_ARTICLE(
       that demonstrates the presented techniques.
     </p>]
   )],
-  [LINK([PDF], [/text/XAVIER 2018. A Real-World Application with a Comonadic User Interface.pdf])]
-  [LINK([BibTeX], [/text/XAVIER 2018. A Real-World Application with a Comonadic User Interface.bib])]
+  [HTML_LINK([PDF], STATIC_FILE([text/xavier2018comonads.pdf]))]
+  [HTML_LINK([BibTeX], STATIC_FILE([text/xavier2018comonads.bib]))]
 )dnl
 
 HTML_ARTICLE(
@@ -103,8 +102,8 @@ HTML_ARTICLE(
       complex demo application.
     </p>]
   )],
-  [LINK([PDF], [/text/XAVIER 2017. Comonads for User Interfaces.pdf])]
-  [LINK([BibTeX], [/text/XAVIER 2017. Comonads for User Interfaces.bib])]
+  [HTML_LINK([PDF], STATIC_FILE([text/xavier2017comonads.pdf]))]
+  [HTML_LINK([BibTeX], STATIC_FILE([text/xavier2017comonads.bib]))]
 )dnl
 
 </main>

@@ -1,3 +1,4 @@
+dnl vim: ft=htmlm4
 <section>
 <h3 class="align">__([Programação], [Programming])</h3>
 
@@ -33,12 +34,12 @@ HTML_ARTICLE(
     [<p>
       Leitor de feed RSS escrito em PureScript como demonstração de um modelo de interfaces
       baseado em <em>comonads</em> para a segunda parte de meu trabalho de conclusão de curso:
-      INTERNAL_LINK([A Real-World Application with a Comonadic User Interface], [text.html#xavier2018comonads])
+      INTERNAL_LINK([A Real-World Application with a Comonadic User Interface], [text.html], [#xavier2018comonads])
     </p>],
     [<p>
       RSS feed reader written in PureScript that demonstrates a <em>comonadic</em> user interface
       model, for the second part of my bachelor thesis:
-      INTERNAL_LINK([A Real-World Application with a Comonadic User Interface], [text.html#xavier2018comonads])
+      INTERNAL_LINK([A Real-World Application with a Comonadic User Interface], [text.html], [#xavier2018comonads])
     </p>]
   )],
   [LINK([__([Código], [Source code])], [https://github.com/arthurxavierx/purescript-comonad-rss])]
@@ -53,7 +54,7 @@ HTML_ARTICLE(
     [<p>
       Aplicação de gerenciamento de tarefas escrita em PureScript para a primeira parte
       de meu trabalho de conclusão de curso
-      (INTERNAL_LINK([Comonads for User Interfaces], [text.html#xavier2017comonads]))
+      (INTERNAL_LINK([Comonads for User Interfaces], [text.html], [#xavier2017comonads]))
       com três diferentes arquiteturas de interface de usuário modeladas com a mesma
       abordagem baseada em <em>comonads</em>.
     </p>
@@ -64,7 +65,7 @@ HTML_ARTICLE(
     [<p>
       Simple task management application written in PureScript for the first
       part of my bachelor thesis
-      (INTERNAL_LINK([Comonads for User Interfaces], [text.html#xavier2017comonads]))
+      (INTERNAL_LINK([Comonads for User Interfaces], [text.html], [#xavier2017comonads]))
       with three different UI architectures modelled under the same approach.
     </p>
     <p>

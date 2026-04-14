@@ -1,27 +1,24 @@
+dnl vim: ft=m4
 M4_DIVERT(-1)
 
 M4_DEFINE([__], M4_IFDEF([ENGLISH], [$2], [$1]))
 
 M4_DEFINE(
   [HTML_BEGIN],
-  [
-  <html lang="__([pt-BR], [en])">
+  [<html lang="__([pt-BR], [en])">
   <head>
   M4_INCLUDE([head.html.m4])
   [$1]
   </head>
-  <body [$2]>
-  ]
+  <body [$2]>]
 )
 
 M4_DEFINE([HTML_HEADER], M4_INCLUDE([header.html.m4]))
 
 M4_DEFINE(
   [HTML_END],
-  [
-  </body>
-  </html>
-  ]
+  [</body>
+  </html>]
 )
 
 M4_DEFINE(
@@ -75,7 +72,14 @@ M4_DEFINE([HTML_ARTICLE], M4_INCLUDE([article.html.m4]))
 
 M4_DEFINE([HTML_H6], [<h6>[$1]</h6>])
 M4_DEFINE([HTML_LINK], [<a target="_blank" href="[$2]">[$1]</a>])
-M4_DEFINE([INTERNAL_LINK], [<a href="[$2]">[$1]</a>])
+
+M4_DEFINE(
+[INTERNAL_LINK],
+[M4_SYSTEST([test -f "__SRC__/[$2].m4"], [<a href="M4_ESYSCMD(grealpath --relative-to=__SRC_DIR__ __SRC__/[$2] | tr -d '\n')[$3]">[$1]</a>], [M4_ERROR(File '__SRC__/[$2].m4' does not exist.)])])
+
+M4_DEFINE(
+[STATIC_FILE],
+[M4_SYSTEST([test -f "__STATIC__/[$1]"], [M4_ESYSCMD(grealpath --relative-to=__DIR__ __STATIC__/[$1] | tr -d '\n')], [M4_ERROR(File '__STATIC__/[$1]' does not exist.)])])
 
 M4_DIVERT(0)dnl
 <!DOCTYPE html>
