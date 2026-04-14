@@ -94,22 +94,22 @@ ul.line > li:first-of-type:before {
   margin-right: 0;
 }
 
-ul.line + ul.line > li:first-of-type {
+ul + ul.line > li:first-of-type {
   margin-left: var(--line-margin);
 }
 
-ul.line + ul.line > li:first-of-type::before {
+ul + ul.line > li:first-of-type::before {
   content: "·";
   margin-right: var(--line-margin);
 }
 
-ul.line + ul.break > li:first-of-type,
-li.line + li.break {
+ul + ul.break > li:first-of-type,
+li + li.break {
   margin-left: 1.1rem;
 }
 
-ul.line + ul.break > li:first-of-type::before,
-li.line + li.break::before {
+ul + ul.break > li:first-of-type::before,
+li + li.break::before {
   content: "|";
   color: var(--color-muted);
   margin-right: 1.1rem;
@@ -195,8 +195,8 @@ figure > figcaption {
 
   ul.line > li:first-of-type::before,
   ul.line.break > li:first-of-type::before,
-  ul.line + ul.line > li:first-of-type::before,
-  ul.line + ul.line.break > li:first-of-type::before {
+  ul + ul.line > li:first-of-type::before,
+  ul + ul.line.break > li:first-of-type::before {
     content: "";
     margin: 0;
   }
