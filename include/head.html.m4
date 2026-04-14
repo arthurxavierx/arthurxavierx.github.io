@@ -15,4 +15,4 @@ __(
 <link href="favicon.png" rel="icon" type="image/png" />
 <link href="__([], [../])css/layout.css" rel="stylesheet" type="text/css" />
 <link href="__([], [../])css/typography.css" rel="stylesheet" type="text/css" />
-<link href="__([], [../])fonts/Vollkorn.css" rel="stylesheet" type="text/css" />
+<link href="__([], [../])fonts/JetBrainsMono.css" rel="stylesheet" type="text/css" />

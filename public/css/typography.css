@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  font-family: "JetBrains Mono", Vollkorn, Georgia, "Times New Roman", serif;
+  font-family: "JetBrains Mono", Menlo, Consolas, "Courier New", monospace;
   font-size: 1.25em;
   font-weight: 400;
   line-height: 1.43em;
