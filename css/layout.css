@@ -76,6 +76,10 @@ ul.line > li::before {
   margin-right: var(--line-margin);
 }
 
+footer {
+  margin-top: 0.3rem;
+}
+
 footer ul.line,
 ul.line.compact {
   --line-margin: 0.7rem;
@@ -90,29 +94,29 @@ ul.line > li:first-of-type:before {
   margin-right: 0;
 }
 
-ul + ul.line > li:first-of-type {
+ul.line + ul.line > li:first-of-type {
   margin-left: var(--line-margin);
 }
 
-ul + ul.line > li:first-of-type::before {
+ul.line + ul.line > li:first-of-type::before {
   content: "·";
   margin-right: var(--line-margin);
 }
 
-ul + ul.break > li:first-of-type,
-li + li.break {
+ul.line + ul.break > li:first-of-type,
+li.line + li.break {
   margin-left: 1.1rem;
 }
 
-ul + ul.break > li:first-of-type::before,
-li + li.break::before {
+ul.line + ul.break > li:first-of-type::before,
+li.line + li.break::before {
   content: "|";
   color: var(--color-muted);
   margin-right: 1.1rem;
 }
 
 article {
-  margin: 1.8rem 0;
+  margin: 2rem 0;
 }
 
 .align {
@@ -131,10 +135,6 @@ article aside {
   order: -1;
   margin: 0.23em 1.2rem 0 0;
   text-align: end;
-}
-
-article p ~ footer {
-  margin-top: -0.3rem;
 }
 
 figure {
@@ -156,7 +156,8 @@ figure > figcaption {
 
 @media screen and (max-width: 799px) {
   body {
-    padding: 3.6rem 2.1rem 6rem 1.7rem;
+    padding: 4.2rem 2.1rem 6rem 1.7rem;
+    --line-margin: 0.7rem;
   }
 
   nav {
@@ -179,6 +180,11 @@ figure > figcaption {
     text-align: start;
   }
 
+  footer ul.line,
+  ul.line.compact {
+    --line-margin: 0.6rem;
+  }
+
   ul.line:not(:last-child) {
     margin-bottom: var(--line-margin);
   }
@@ -188,7 +194,9 @@ figure > figcaption {
   }
 
   ul.line > li:first-of-type::before,
-  ul.line.break > li:first-of-type::before {
+  ul.line.break > li:first-of-type::before,
+  ul.line + ul.line > li:first-of-type::before,
+  ul.line + ul.line.break > li:first-of-type::before {
     content: "";
     margin: 0;
   }
