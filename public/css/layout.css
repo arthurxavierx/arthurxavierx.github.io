@@ -17,7 +17,7 @@ body {
 
 body {
   /* Optical centering */
-  padding: 3.6rem 2.4rem 6rem 1.8rem;
+  padding: 4.8rem 2.4rem 6rem 1.8rem;
 
   max-width: 64rem;
   margin: 0 auto;
@@ -35,7 +35,7 @@ section {
 }
 
 main {
-  margin: 4.2rem auto 0;
+  margin: 4.8rem auto 0;
 }
 
 .column {

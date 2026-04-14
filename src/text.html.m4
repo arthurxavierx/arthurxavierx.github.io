@@ -32,7 +32,7 @@ HTML_ARTICLE(
       body, time, space and the other.
     </p>]
   )],
-  [<li>Em breve</li>]
+  [<li>(__([em breve], [soon]))</li>]
 )dnl
 
 HTML_ARTICLE(

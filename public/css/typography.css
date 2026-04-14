@@ -100,17 +100,17 @@ h1 + h2 {
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 600;
   line-height: 1.3;
-  margin: 2em 0 0.33em;
+  margin: 2.4em 0 0.33em;
 }
 
 h4 {
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.3;
-  margin: 1em 0 0.2222em;
+  margin: 1.2em 0 0.2222em;
 }
 
 h5 {
@@ -150,6 +150,7 @@ nav a:hover {
 /** FOOTER */
 footer {
   font-size: 1.2rem;
+  color: var(--color-muted);
 }
 
 footer a {
@@ -157,7 +158,13 @@ footer a {
 }
 
 /** LISTS */
-ul,
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 0;
+  text-align: start;
+}
+
 ol {
   padding-inline-start: 1.1em;
   margin: 0;
@@ -177,12 +184,12 @@ ol li::marker {
 /** COPY */
 p {
   clear: both;
-  margin: 0.22em 0 1em;
+  margin: 0.22em 0 2ex;
   text-align: justify;
 }
 
 article p {
-  margin-bottom: 0.4em;
+  margin-bottom: 1ex;
 }
 
 small {
