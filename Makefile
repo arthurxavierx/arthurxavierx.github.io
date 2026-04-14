@@ -37,19 +37,20 @@ clean:
 	rm -rf $(DIST)
 
 .PHONY: publish
-publish:
+publish: all
 	./publish.sh $(DIST)
 
 .PHONY: watch
-watch: $(PAGES) $(PAGES_EN)
+watch: all
 	@echo Watching...
-	@echo $(INCLUDES) $(SRCS) | tr " " "\n" | $(WATCH) make
+	@echo $(STATIC_FILES) $(INCLUDES) $(SRCS) | tr " " "\n" | $(WATCH) make
 
 $(DIST):
 	@mkdir -p $@
 
 $(DIST)/%: $(STATIC)/% | $(DIST)
 	@mkdir -p $(@D)
+	@echo Copying $< to $@
 	@cp -r $< $@
 
 $(DIST)/en/cv.html: $(SRC)/cv.html.m4 $(SRC)/cv/education.m4 $(SRC)/cv/additional.m4 $(SRC)/cv/professional.m4 $(INCLUDES) | $(DIST)
