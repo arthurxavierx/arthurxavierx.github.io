@@ -1,5 +1,5 @@
 INCLUDE := include
-PUBLIC := public
+PUBLIC := docs
 SRC := src
 
 HTML_M4 := $(INCLUDE)/html.m4
