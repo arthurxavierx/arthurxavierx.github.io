@@ -53,7 +53,7 @@ HTML_ARTICLE(
       at the Federal University of Minas Gerais, Brazil, advised by professor José Padovani.
     </p>]
   )],
-  [HTML_LINK([PDF], [STATIC_FILE([text/xavier2025meditacao.pdf])])]
+  [HTML_LINK([PDF], STATIC_FILE([text/xavier2025meditacao.pdf]))]
 )dnl
 
 HTML_ARTICLE(
@@ -75,8 +75,8 @@ HTML_ARTICLE(
       that demonstrates the presented techniques.
     </p>]
   )],
-  [HTML_LINK([PDF], [STATIC_FILE([text/xavier2018comonads.pdf])])]
-  [HTML_LINK([BibTeX], [STATIC_FILE([text/xavier2018comonads.bib])])]
+  [HTML_LINK([PDF], STATIC_FILE([text/xavier2018comonads.pdf]))]
+  [HTML_LINK([BibTeX], STATIC_FILE([text/xavier2018comonads.bib]))]
 )dnl
 
 HTML_ARTICLE(
@@ -102,8 +102,8 @@ HTML_ARTICLE(
       complex demo application.
     </p>]
   )],
-  [HTML_LINK([PDF], [STATIC_FILE([text/xavier2017comonads.pdf])])]
-  [HTML_LINK([BibTeX], [STATIC_FILE([text/xavier2017comonads.bib])])]
+  [HTML_LINK([PDF], STATIC_FILE([text/xavier2017comonads.pdf]))]
+  [HTML_LINK([BibTeX], STATIC_FILE([text/xavier2017comonads.bib]))]
 )dnl
 
 </main>
