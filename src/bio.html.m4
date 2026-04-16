@@ -7,13 +7,13 @@ HTML_HEADER()
 
 <p>
   __([
-    Arthur Xavier é artista, compositor e de&shy;senvolvedor residente em Belo Horizonte e Brasília.
-    Ex-engenheiro de software e ba&shy;charel em Ciência da Computação, hoje é estudante do Bacharelado
+    Arthur Xavier é artista, compositor e desenvolvedor residente em Belo Horizonte e Brasília.
+    Ex-engenheiro de software e bacharel em Ciência da Computação, hoje é estudante do Bacharelado
     em Música com habilitação em Composição na UFMG e se interessa por tudo o que é arte sonora,
-    arte multimídia, música experimental e mú&shy;sica eletroacústica.
+    arte multimídia, música experimental e música eletroacústica.
   ], [
     Arthur Xavier is an artist, composer and developer based in Belo Horizonte and Brasília, Brazil. A former
-    Software Engi&shy;neer and bachelor in Computer Science, nowadays Arthur studies Composition at
+    Software Engineer and bachelor in Computer Science, nowadays Arthur studies Composition at
     the Federal University of Minas Gerais, Brazil and has a major interest in sound art, multimedia
     arts, and experimental and electroacoustic music.
   ])
@@ -23,12 +23,12 @@ HTML_HEADER()
   __([
     Acredita na arte enquanto ferramenta de emancipação subjetiva e política, e em seu
     potencial de despertar atenção, reflexão e ação através de experiências sensíveis.
-    Investiga principalmente as questões das relações subjetivas com o trabalho, a tec&shy;nologia,
-    o tempo e a memória. Faz arte pa&shy;ra parar o tempo, arte para estar pre&shy;sente, arte para sair
+    Investiga principalmente as questões das relações subjetivas com o trabalho, a tecnologia,
+    o tempo e a memória. Faz arte para parar o tempo, arte para estar presente, arte para sair
     sair de dentro da própria cabeça.
   ], [
-    They believe in art as a tool for sub&shy;jective and political liberation, and on its power of
-    mobilizing attention, reflec&shy;tion and action through sensible expe&shy;riences. Arthur mainly
+    They believe in art as a tool for subjective and political liberation, and on its power of
+    mobilizing attention, reflection and action through sensible experiences. Arthur mainly
     investigates the questions of subjective relations with work, technology, time and memory.
     Makes art to stop time, to feel present, and to leave their own head.
   ])

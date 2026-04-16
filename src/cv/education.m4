@@ -18,7 +18,7 @@ HTML_ARTICLE(
   [HTML_DATE([2023]) &ndash;],
   [__(
     [<p>
-      Estudos com foco na composição eletro&shy;acústica, instrumental, e live electronics,
+      Estudos com foco na composição eletroacústica, instrumental, e live electronics,
       orientado pelos professores Ajítẹnà Marco Scarassatti e José Henrique Padovani.
     </p>],
     [<p>
@@ -36,13 +36,13 @@ HTML_ARTICLE(
   [HTML_DATE([2013]) &ndash; HTML_DATE([2018])],
   [__(
     [<p>
-      Trabalhos de conclusão de curso desenvol&shy;vidos sob orientação do Prof. Roberto Bigonha e
+      Trabalhos de conclusão de curso desenvolvidos sob orientação do Prof. Roberto Bigonha e
       <a target="_blank" href="https://functorial.com">Phil Freeman</a> sobre modelos de
       programação funcional para aplicações de interface de usuário:
     </p>],
     [<p>
       Bachelor thesis written with <a target="_blank" href="https://functorial.com">Phil Freeman</a>
-      on theoretical and functional programming mod&shy;els for user interfaces:
+      on theoretical and functional programming models for user interfaces:
     </p>]
   )
     <ul>

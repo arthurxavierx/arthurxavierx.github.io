@@ -10,12 +10,12 @@ HTML_ARTICLE(
   [__(
     [<p>
       Curso online associado ao 24º Encontro Internacional de Arte e Tecnologia que reuniu
-      artistas e pesquisadores para inves&shy;tigar o colapso do antropocentrismo e a emergência
+      artistas e pesquisadores para investigar o colapso do antropocentrismo e a emergência
       de novas alianças entre espécies, linguagens e inteligências.
     </p>],
     [<p>
       Online classes associated with the 24º Encontro Internacional de Arte e Tecnologia,
-      in Brasília, Brazil, where artists, thinkers, scientists and designers investi&shy;gate
+      in Brasília, Brazil, where artists, thinkers, scientists and designers investigate
       the collapse of anthropocentrism and the emergence of new alliances between species,
       languages and intelligences.
     </p>]
@@ -30,7 +30,7 @@ HTML_ARTICLE(
   [__(
     [<p>
       Formação para DJs e produtores musicais conduzidas pelo produtor Felipe Pomar, pela
-      DJ anglo-nigeriana Kem Kem e pelo antro&shy;pólogo Dennis Novaes, que buscou aproximar
+      DJ anglo-nigeriana Kem Kem e pelo antropólogo Dennis Novaes, que buscou aproximar
       a linguagem dos <em>afrobeats</em> da música eletrônica e popular do Brasil.
     </p>],
     [<p>

@@ -34,7 +34,7 @@ HTML_ARTICLE(
   [HTML_DATE(2025, 12)],
   [__(
     [<p>
-      Performance de arte sonora interativa apresen&shy;tada em dezembro de 2025 na 7ª edição do
+      Performance de arte sonora interativa apresentada em dezembro de 2025 na 7ª edição do
       concerto <em>Imaginários Sonoros</em>, no ECrIS, Espaço de Criação e Investigação
       do <em>Conservatório UFMG</em>.
     </p>],
@@ -84,7 +84,7 @@ HTML_ARTICLE(
   [HTML_DATE(2025, 06)],
   [__(
     [<p>
-      Composição eletroacústica acusmática apresen&shy;tada no <em>IV SOMARUMOR: Encontro Latino
+      Composição eletroacústica acusmática apresentada no <em>IV SOMARUMOR: Encontro Latino
       Americano de Arte Sonora</em> em setembro de 2025, na <em>Universidade Federal Fluminense</em>,
       em Niterói/RJ.
     </p>
@@ -94,7 +94,7 @@ HTML_ARTICLE(
       em Vitória/ES.
     </p>],
     [<p>
-      Acousmatic electroacoustic composition pre&shy;sented on <em>IV SOMARUMOR: Encontro Latino
+      Acousmatic electroacoustic composition presented on <em>IV SOMARUMOR: Encontro Latino
       Americano de Arte Sonora</em>, september 2025, at <em>Universidade Federal Fluminense</em>,
       in Niterói, Brazil.
     </p>

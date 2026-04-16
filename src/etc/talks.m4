@@ -36,7 +36,7 @@ HTML_ARTICLE(
     [<p>
       Nesta palestra é abordado o processo de abstração em programação
       funcional e como duas abstrações (ou padrões) específicas podem
-      garantir comple&shy;xidade sem dificuldade.
+      garantir complexidade sem dificuldade.
     </p>],
     [<p>
       In this series of lectures and workshops, we explore the whats, whys

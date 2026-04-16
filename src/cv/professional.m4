@@ -31,8 +31,8 @@ HTML_ARTICLE(
   [HTML_DATE(2021, 10) &ndash; HTML_DATE(2023, 04)],
   [__(
     [<p>
-      Desenvolvedor remoto de uma plataforma in&shy;terna para criação e monitoramento de cam&shy;panhas
-      de marketing. Trabalhou na refato&shy;ração e melhoria das bases de código da empresa.
+      Desenvolvedor remoto de uma plataforma interna para criação e monitoramento de campanhas
+      de marketing. Trabalhou na refatoração e melhoria das bases de código da empresa.
     </p>],
     [<p>
       Worked with a remote team on an internal ad-tech platform written in PureScript,
@@ -48,14 +48,14 @@ HTML_ARTICLE(
   [HTML_DATE(2018, 08) &ndash; HTML_DATE(2021, 07)],
   [__(
     [<p>
-      Trabalhou com um time distribuído e remoto no desen&shy;volvimento de ferramentas internas,
-      e na concepção, construção e manu&shy;ten&shy;ção de uma plataforma de marketplace para manu&shy;fatura de
-      emba&shy;lagens sob encomenda.
+      Trabalhou com um time distribuído e remoto no desenvolvimento de ferramentas internas,
+      e na concepção, construção e manutenção de uma plataforma de marketplace para manufatura de
+      embalagens sob encomenda.
     </p>],
     [<p>
-      Worked with a distributed and remote team on internal adminis&shy;tration tools and
-      from con&shy;ception to release and maintenance on a marketplace for custom-manufactured
-      pack&shy;aging.
+      Worked with a distributed and remote team on internal administration tools and
+      from conception to release and maintenance on a marketplace for custom-manufactured
+      packaging.
     </p>]
   )]
 )
@@ -67,8 +67,8 @@ HTML_ARTICLE(
   [HTML_DATE(2018, 02) &ndash; HTML_DATE(2018, 07)],
   [__(
     [<p>
-      Desenvolvedor líder de uma plataforma de CRM e ponto de ven&shy;da, construída
-      com React e Firebase do protótipo à pro&shy;dução.
+      Desenvolvedor líder de uma plataforma de CRM e ponto de venda, construída
+      com React e Firebase do protótipo à produção.
     </p>],
     [<p>
       Lead developer of a successful CRM and point of sale platform built
@@ -89,7 +89,7 @@ HTML_ARTICLE(
     </p>],
     [<p>
       Lead front-end developer of the <a target="_blank" href="https://portal.blip.ai">blip.ai</a>
-      portal, a platform for creation and man&shy;agement of chatbots written in JavaScript with Angular.
+      portal, a platform for creation and management of chatbots written in JavaScript with Angular.
     </p>]
   )]
 )
