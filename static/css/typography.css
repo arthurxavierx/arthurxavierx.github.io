@@ -196,6 +196,10 @@ article p {
   margin-bottom: 1ex;
 }
 
+article p:last-child {
+  margin-bottom: 0.65ex;
+}
+
 p + p {
   margin-top: 1ex;
 }
