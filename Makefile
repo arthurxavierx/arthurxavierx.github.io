@@ -40,6 +40,10 @@ clean:
 publish: all
 	./publish.sh $(DIST)
 
+.PHONY: publish-force
+publish-force: all
+	FORCE_COMMIT=1 ./publish.sh $(DIST)
+
 .PHONY: watch
 watch: all
 	@echo Watching...

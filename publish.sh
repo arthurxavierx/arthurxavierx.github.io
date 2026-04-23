@@ -7,8 +7,13 @@ then
   exit 1
 fi
 
-pushd $1
+@pushd $1
 git add --all
-git commit -m `date +%s`
-git push origin gh-pages
-popd
+if [ -n "$FORCE_COMMIT" ];
+then
+  git commit --allow-empty -m `date +%s`
+else
+  git commit -m `date +%s`
+fi
+# git push origin gh-pages
+@popd
