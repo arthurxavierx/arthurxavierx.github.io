@@ -7,7 +7,7 @@ then
   exit 1
 fi
 
-@pushd $1
+pushd $1 > /dev/null
 git add --all
 if [ -n "$FORCE_COMMIT" ];
 then
@@ -15,5 +15,5 @@ then
 else
   git commit -m `date +%s`
 fi
-# git push origin gh-pages
-@popd
+git push origin gh-pages
+popd > /dev/null

@@ -38,11 +38,11 @@ clean:
 
 .PHONY: publish
 publish: all
-	./publish.sh $(DIST)
+	@./publish.sh $(DIST)
 
 .PHONY: publish-force
 publish-force: all
-	FORCE_COMMIT=1 ./publish.sh $(DIST)
+	@FORCE_COMMIT=1 ./publish.sh $(DIST)
 
 .PHONY: watch
 watch: all
