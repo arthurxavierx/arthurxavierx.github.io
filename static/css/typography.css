@@ -9,6 +9,7 @@ html {
   --color-muted: #545454;
 }
 
+/*
 @media (prefers-color-scheme: dark) {
   body {
     --background: #000000;
@@ -20,6 +21,7 @@ html {
     --color-muted: #ababab;
   }
 }
+*/
 
 body {
   font-family: "JetBrains Mono", Menlo, Consolas, "Courier New", monospace;
