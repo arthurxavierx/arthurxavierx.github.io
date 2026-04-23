@@ -1,5 +1,5 @@
 M4_DEFINE([__PAGE__], [__([bio], [bio])])dnl
-HTML_BEGIN([], [style="max-width: 56rem"])
+HTML_BEGIN([], [style="max-width: 60rem"])
 
 HTML_HEADER()
 
