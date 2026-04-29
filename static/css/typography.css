@@ -1,34 +1,19 @@
 html {
   font-size: 62.5%;
   --background: #ffffff;
-  --color-primary: #212121;
-  --color-secondary: #424242;
+  --color-primary: #333333;
+  --color-muted: #727272;
   --color-accent: #ff0000;
-  --color-link: #636363;
-  --color-link-hover: var(--color-secondary);
-  --color-muted: #545454;
+  --color-link: var(--color-muted);
+  --color-link-hover: var(--color-primary);
 }
-
-/*
-@media (prefers-color-scheme: dark) {
-  body {
-    --background: #000000;
-    --color-primary: #f0f0f0;
-    --color-secondary: #d0d0d0;
-    --color-accent: #ff0000;
-    --color-link: #a4a4a4;
-    --color-link-hover: var(--color-secondary);
-    --color-muted: #ababab;
-  }
-}
-*/
 
 body {
   font-family: "JetBrains Mono", Menlo, Consolas, "Courier New", monospace;
-  font-size: 1.2em;
+  font-size: 1.21em;
   font-weight: 400;
-  letter-spacing: -0.022em;
-  line-height: 1.43em;
+  letter-spacing: -0.025em;
+  line-height: 1.5em;
   background: var(--background);
   color: var(--color-primary);
 }
@@ -41,14 +26,10 @@ a {
   hyphens: none;
 }
 
-a:hover {
-  color: var(--color-link-hover);
-  text-decoration: underline;
-}
-
+a:hover,
 a.active,
 a.active:hover {
-  color: var(--color-primary);
+  color: var(--color-link-hover);
   text-decoration: underline;
 }
 
@@ -95,7 +76,6 @@ h2 {
   font-size: 1.7rem;
   font-style: italic;
   font-weight: 400;
-  color: var(--color-muted);
   line-height: 1.5;
   margin: 1em 0 0.5em;
 }
@@ -132,7 +112,7 @@ header h5 {
 
 h6,
 address {
-  font-size: 1.15rem;
+  font-size: 1.17rem;
   font-weight: 400;
   font-style: italic;
   color: var(--color-link);
@@ -141,7 +121,7 @@ address {
 
 /** NAV */
 nav {
-  font-size: 1.15rem;
+  font-size: 1.17rem;
 }
 
 nav a {
@@ -189,7 +169,7 @@ ol li::marker {
 /** COPY */
 p {
   clear: both;
-  margin: 0.3em 0 2ex;
+  margin: 0.3em 0 2.5ex;
   text-align: justify;
   hyphens: auto;
 }
@@ -210,17 +190,9 @@ small {
   font-size: 0.8em;
 }
 
-.accent {
-  color: var(--color-accent);
-}
-
-.muted {
-  color: var(--color-muted);
-}
-
 time {
   flex: none;
-  color: var(--color-secondary);
+  color: var(--color-muted);
   font-size: 1.1rem;
   text-transform: uppercase;
 }
