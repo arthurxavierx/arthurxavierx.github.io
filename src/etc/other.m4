@@ -19,7 +19,7 @@ HTML_ARTICLE(
       <em>Non-mobile device recommended.</em>
     </p>]
   )],
-  [LINK([__([Ver], [View])], [https://arthurxavierx.github.io/contour-lines])]
+  [LINK([__([Ver], [View])], [__SITE__/contour-lines])]
   [LINK([__([Código], [Source code])], [__GITHUB__/contour-lines])]
 )dnl
 
@@ -36,7 +36,7 @@ HTML_ARTICLE(
       Interactive audio visualization experiment with WebGL.
     </p>]
   )],
-  [LINK([__([Ver], [View])], [https://arthurxavierx.github.io/reverse-highway])]
+  [LINK([__([Ver], [View])], [__SITE__/reverse-highway])]
   [LINK([__([Código], [Source code])], [__GITHUB__/reverse-highway])]
 )dnl
 
@@ -57,7 +57,7 @@ HTML_ARTICLE(
       <em>Desktop only.</em>
     </p>]
   )],
-  [LINK([__([Ver], [View])], [https://arthurxavierx.github.io/gravity])]
+  [LINK([__([Ver], [View])], [__SITE__/gravity])]
   [LINK([__([Código], [Source code])], [__GITHUB__/gravity])]
 )dnl
 

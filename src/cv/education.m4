@@ -26,7 +26,7 @@ HTML_ARTICLE(
       Advised by professors Ajítẹnà Marco Scarassatti and José Henrique Padovani.
     </p>]
   )],
-  [HTML_LINK(__([Portfólio], [Portfolio]), [https://arthurxavierx.github.io/music.html])]
+  [SITE_LINK(__([Portfólio], [Portfolio]), [music.html])]
 )
 
 HTML_ARTICLE(

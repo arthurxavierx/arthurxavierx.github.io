@@ -14,7 +14,7 @@ HTML_BEGIN(<link href="STATIC_FILE([css/resume.css])" rel="stylesheet" type="tex
       ])
     </ul>
     <ul class="line compact">
-      <li><a href="https://arthurxavierx.github.io">arthurxavierx.github.io</a></li>
+      <li><a href="__SITE__">__CNAME__</a></li>
     </ul>
     <ul class="line compact">
       <li><a href="mailto:arthur.xavierx@gmail.com">arthur.xavierx@gmail.com</a></li>

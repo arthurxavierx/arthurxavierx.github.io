@@ -93,7 +93,7 @@ HTML_ARTICLE(
   [4º FEMUG-MG, __([Brasil], [Brazil])],
   [HTML_DATE(2017, 01, 26)],
   [],
-  [LINK([Slides], [https://arthurxavierx.github.io/talks/front-end-fp-elm/])]
+  [LINK([Slides], [__SITE__/talks/front-end-fp-elm/])]
 )dnl
 
 </section>
