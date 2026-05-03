@@ -110,7 +110,7 @@ HTML_ARTICLE(
       Desenvolvimento de um protótipo de aplicativo Android para a geração de
       modelos 3D a partir de rascunhos bidimensionais:
       <br />
-      <a href="https://github.com/arthurxavierx/modelr">github.com/arthurxavierx/modelr</a>.
+      <a href="__GITHUB__/modelr">github.com/arthurxavierx/modelr</a>.
     </p>],
     [<p>
       Research on <em>Rendering and Simulation of Underwater Environments</em>
@@ -123,7 +123,7 @@ HTML_ARTICLE(
       Development of an Android prototype application for the generation
       of 3D models from 2D sketches:
       <br />
-      <a href="https://github.com/arthurxavierx/modelr">github.com/arthurxavierx/modelr</a>.
+      <a href="__GITHUB__/modelr">github.com/arthurxavierx/modelr</a>.
     </p>]
   )]
 )

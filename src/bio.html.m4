@@ -50,7 +50,7 @@ HTML_HEADER()
   <ul class="line">
     <li><a href="https://instagram.com/arthurxavierx">instagram</a></li>
     <li><a href="https://soundcloud.com/arthurxavierx">soundcloud</a></li>
-    <li><a href="https://github.com/arthurxavierx">github</a></li>
+    <li><a href="__GITHUB__">github</a></li>
   </ul>
 </p>
 

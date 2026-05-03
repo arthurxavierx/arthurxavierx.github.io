@@ -81,5 +81,7 @@ M4_DEFINE(
 [STATIC_FILE],
 [M4_SYSTEST([test -f "__STATIC__/[$1]"], [M4_ESYSCMD(grealpath --relative-to=__DIR__ __STATIC__/[$1] | tr -d '\n')], [M4_ERROR(File '__STATIC__/[$1]' does not exist.)])])
 
+M4_DEFINE([__GITHUB__], [https://github.com/arthurxavierx])
+
 M4_DIVERT(0)dnl
 <!DOCTYPE html>

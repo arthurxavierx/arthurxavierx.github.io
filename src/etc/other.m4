@@ -20,7 +20,7 @@ HTML_ARTICLE(
     </p>]
   )],
   [LINK([__([Ver], [View])], [https://arthurxavierx.github.io/contour-lines])]
-  [LINK([__([Código], [Source code])], [https://github.com/arthurxavierx/contour-lines])]
+  [LINK([__([Código], [Source code])], [__GITHUB__/contour-lines])]
 )dnl
 
 HTML_ARTICLE(
@@ -37,7 +37,7 @@ HTML_ARTICLE(
     </p>]
   )],
   [LINK([__([Ver], [View])], [https://arthurxavierx.github.io/reverse-highway])]
-  [LINK([__([Código], [Source code])], [https://github.com/arthurxavierx/reverse-highway])]
+  [LINK([__([Código], [Source code])], [__GITHUB__/reverse-highway])]
 )dnl
 
 HTML_ARTICLE(
@@ -58,7 +58,7 @@ HTML_ARTICLE(
     </p>]
   )],
   [LINK([__([Ver], [View])], [https://arthurxavierx.github.io/gravity])]
-  [LINK([__([Código], [Source code])], [https://github.com/arthurxavierx/gravity])]
+  [LINK([__([Código], [Source code])], [__GITHUB__/gravity])]
 )dnl
 
 </section>

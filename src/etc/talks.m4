@@ -23,7 +23,7 @@ HTML_ARTICLE(
     </p>]
   )],
   [LINK([Slides], [https://www.slideshare.net/ArthurXavier7/type-safe-embedded-domainspecific-languages-182775383])]
-  [LINK([Workshop], [https://github.com/arthurxavierx/monadic-party-edsl])]
+  [LINK([Workshop], [__GITHUB__/monadic-party-edsl])]
   [LINK([__([Vídeos], [Videos])], [https://www.youtube.com/watch?v=4sTeT7poU3g&list=PLcAu_kKy-krxDD1WwRX_9rc0knAFK3nHs&index=54])]
 )dnl
 

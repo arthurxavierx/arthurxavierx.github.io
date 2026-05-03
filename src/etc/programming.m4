@@ -22,7 +22,7 @@ HTML_ARTICLE(
       casing functionality to better blend with Vim's editing philosophy.
     </p>]
   )],
-  [LINK([__([Código], [Source code])], [https://github.com/arthurxavierx/vim-caser])]
+  [LINK([__([Código], [Source code])], [__GITHUB__/vim-caser])]
 )dnl
 
 HTML_ARTICLE(
@@ -42,7 +42,7 @@ HTML_ARTICLE(
       INTERNAL_LINK([A Real-World Application with a Comonadic User Interface], [text.html], [#xavier2018comonads])
     </p>]
   )],
-  [LINK([__([Código], [Source code])], [https://github.com/arthurxavierx/purescript-comonad-rss])]
+  [LINK([__([Código], [Source code])], [__GITHUB__/purescript-comonad-rss])]
 )dnl
 
 HTML_ARTICLE(
@@ -73,7 +73,7 @@ HTML_ARTICLE(
       HTML_LINK([Comonads as spaces], [https://blog.functorial.com/posts/2016-08-07-Comonads-As-Spaces.html]).
     </p>]
   )],
-  [LINK([__([Código], [Source code])], [https://github.com/arthurxavierx/purescript-comonadic-ui-todos])]
+  [LINK([__([Código], [Source code])], [__GITHUB__/purescript-comonadic-ui-todos])]
 )dnl
 
 HTML_ARTICLE(
@@ -89,7 +89,7 @@ HTML_ARTICLE(
       Android application for the generation of 3D models based on two-dimensional sketches.
     </p>]
   )],
-  [LINK([__([Código], [Source code])], [https://github.com/arthurxavierx/modelr])]
+  [LINK([__([Código], [Source code])], [__GITHUB__/modelr])]
 )dnl
 
 </section>
