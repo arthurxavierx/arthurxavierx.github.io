@@ -44,7 +44,7 @@ HTML_ARTICLE(
     </p>]
   )],
   [HTML_LINK(__([Partitura], [Sheet music]), STATIC_FILE([music/Mercado_de_trabalho.pdf]))]
-  [HTML_LINK(__([Vídeo], [Video]), [https://youtu.be/Bm3al7lJ3VQ])]
+  [HTML_LINK(__([Vídeo], [Video]), [https://youtu.be/03ESib2ceUU])]
 )dnl
 
 HTML_ARTICLE(
