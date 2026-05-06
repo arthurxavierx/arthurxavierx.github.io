@@ -74,8 +74,10 @@ M4_DEFINE([HTML_H6], [<h6>[$1]</h6>])
 M4_DEFINE([HTML_LINK], [<a target="_blank" href="[$2]">[$1]</a>])
 
 M4_DEFINE(
-[INTERNAL_LINK],
-[M4_SYSTEST([test -f "__SRC__/[$2].m4"], [<a href="M4_ESYSCMD(grealpath --relative-to=__SRC_DIR__ __SRC__/[$2] | tr -d '\n')[$3]">[$1]</a>], [M4_ERROR(File '__SRC__/[$2].m4' does not exist.)])])
+[INTERNAL_URL],
+[M4_SYSTEST([test -f "__SRC__/[$1].m4"], [M4_ESYSCMD(grealpath --relative-to=__SRC_DIR__ __SRC__/[$1] | tr -d '\n')[$2]], [M4_ERROR(File '__SRC__/[$1].m4' does not exist.)])])
+
+M4_DEFINE([INTERNAL_LINK], [<a href="INTERNAL_URL([$2], [$3])">[$1]</a>])
 
 M4_DEFINE(
 [STATIC_FILE],
