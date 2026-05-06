@@ -15,13 +15,12 @@ HTML_ARTICLE(
       Performance de dança e arte sonora interativa apresentada em dezembro de 2025 na 7ª
       edição do concerto <em>Imaginários Sonoros</em>, no ECrIS, Espaço de Criação e
       Investigação Sonora do <em>Conservatório UFMG</em> sob o título <em>"Um estudo das
-      intermitências</em>, com Nina Nunes e Triz Tristão.
+      intermitências</em>, com HTML_LINK([Nina Nunes], [https://www.instagram.com/ninoises/]) e HTML_LINK([Triz Tristão], [https://www.instagram.com/triztristao/]).
     </p>],
     [<p>
       Dance and interactive sound art performance presented on december 2025 at the
       7th <em>Imaginários Sonoros</em> concert, at <em>Conservatório UFMG</em> with
-      the title <em>"Um estudo das intermitências</em>, with performers Nina Nunes
-      and Triz Tristão.
+      the title <em>"Um estudo das intermitências</em>, with performers HTML_LINK([Nina Nunes], [https://www.instagram.com/ninoises/]) and HTML_LINK([Triz Tristão], [https://www.instagram.com/triztristao/]).
     </p>]
   )],
   [HTML_LINK(__([Vídeo], [Video]), [https://youtu.be/Bm3al7lJ3VQ])]
