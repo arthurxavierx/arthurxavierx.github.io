@@ -31,7 +31,7 @@ HTML_ARTICLE(
       body, time, space and the other.
     </p>]
   )],
-  [<li>(__([em breve], [soon]))</li>]
+  [HTML_LINK([PDF], STATIC_FILE([text/xavier2026dancar.pdf]))&nbsp;(__([pré-impressão], [pre-print]))]
 )dnl
 
 HTML_ARTICLE(
