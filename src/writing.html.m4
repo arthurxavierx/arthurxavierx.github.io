@@ -40,7 +40,10 @@ HTML_ARTICLE(
 
 HTML_ARTICLE(
   [xavier2025meditacao],
-  [XAVIER, Arthur. <em>Sobre 'Meditação 1' (2025), para duas flautas e vídeo.</em> 2025.],
+  [__(
+    [XAVIER, Arthur. Sobre 'Meditação 1' (2025), para duas flautas e vídeo. 2025.],
+    [Xavier, A. (2025). Sobre 'Meditação 1' (2025), para duas flautas e vídeo.]
+  )],
   [],
   [HTML_DATE(2025, 12)],
   [__(
@@ -62,7 +65,10 @@ HTML_ARTICLE(
 
 HTML_ARTICLE(
   [xavier2018comonads],
-  [XAVIER, Arthur. <em>A Real-World Application with a Comonadic User Interface.</em> 2018.],
+  [__(
+    [XAVIER, Arthur. A Real-World Application with a Comonadic User Interface. 2018.],
+    [Xavier, A. (2018). A Real-World Application with a Comonadic User Interface.]
+  )],
   [],
   [HTML_DATE(2018, 06)],
   [__(
@@ -85,7 +91,10 @@ HTML_ARTICLE(
 
 HTML_ARTICLE(
   [xavier2017comonads],
-  [XAVIER, Arthur. <em>Comonads for User Interfaces.</em> 2017. Trabalho de Conclusão de Curso (Bacharelado em Ciência da Computação), Universidade Federal de Minas Gerais, Belo Horizonte, 2017.],
+  [__(
+    [XAVIER, Arthur. <em>Comonads for User Interfaces.</em> 2017. Trabalho de Conclusão de Curso (Bacharelado em Ciência da Computação), Universidade Federal de Minas Gerais, Belo Horizonte, 2017.],
+    [Xavier, A. (2017). <em>Comonads for User Interfaces</em> [Unpublished Bachelor's Thesis]. Universidade Federal de Minas Gerais.],
+  )],
   [],
   [HTML_DATE(2018, 01)],
   [__(
