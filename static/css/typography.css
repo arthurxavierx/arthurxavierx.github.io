@@ -49,8 +49,7 @@ h6 {
 :target h2,
 :target h3,
 :target h4,
-:target h5,
-:target h6 {
+:target h5 {
   text-decoration: underline;
   text-decoration-color: var(--color-accent);
 }
