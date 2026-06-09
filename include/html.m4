@@ -85,6 +85,7 @@ M4_DEFINE(
 
 M4_DEFINE([__CNAME__], [M4_ESYSCMD(cat __STATIC__/CNAME)])
 M4_DEFINE([__SITE__], [https://__CNAME__])
+M4_DEFINE([__URL__], [__SITE__/__([__FILE__], [en/__FILE__])])
 
 M4_DEFINE(
 [SITE_LINK],

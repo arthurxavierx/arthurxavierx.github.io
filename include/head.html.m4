@@ -12,8 +12,7 @@ M4_DEFINE([__TITLE__], [M4_IFDEF([__PAGE__], [Arthur Xavier / __PAGE__], [Arthur
 <meta property="og:title" content="__TITLE__"/>
 <meta property="og:description" content="Artista transdisciplinar, compositor e programador"/>
 <meta property="og:image" content="STATIC_FILE([favicon.png])"/>
-<meta property="og:image:width" content="64"/>
-<meta property="og:image:height" content="64"/>
+<meta property="og:url" content="__URL__"/>
 <meta property="og:type" content="website"/>
 
 __(
