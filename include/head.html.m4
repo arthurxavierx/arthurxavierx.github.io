@@ -6,7 +6,16 @@
 <meta name="apple-touch-fullscreen" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-<title>M4_IFDEF([__PAGE__], [Arthur Xavier / __PAGE__], [Arthur Xavier])</title>
+M4_DEFINE([__TITLE__], [M4_IFDEF([__PAGE__], [Arthur Xavier / __PAGE__], [Arthur Xavier])])m4_dnl
+<title>__TITLE__</title>
+<meta name="description" content="Artista transdisciplinar, compositor e programador"/>
+<meta property="og:title" content="__TITLE__"/>
+<meta property="og:description" content="Artista transdisciplinar, compositor e programador"/>
+<meta property="og:image" content="STATIC_FILE([favicon.png])"/>
+<meta property="og:image:width" content="64"/>
+<meta property="og:image:height" content="64"/>
+<meta property="og:type" content="website"/>
+
 __(
   [<link rel="alternate" hreflang="en" href="en/__FILE__" />],
   [<link rel="alternate" hreflang="pt-BR" href="../__FILE__" />]
