@@ -8,8 +8,8 @@ HTML_HEADER()
 HTML_ARTICLE(
   [xavier2026dancar],
   [__(
-    [XAVIER, Arthur. Dançar conforme a música, musicar conforme a dança: sobre 'máquina-eu máquina-mundo' (2025) para dança, celulares e áudio interativo. In: <em>Anais do XIII Simpósio Internacional de Inovação em Mídias Interativas. Paradigmas</em>. ROCHA, Cleomar (Org). Goiânia: Media Lab / Iberoamérica, PPG ACT, 2026. DOI: 10.5281/zenodo.20562453],
-    [Xavier, A. (2026). Dançar conforme a música, musicar conforme a dança: sobre 'máquina-eu máquina-mundo' (2025) para dança, celulares e áudio interativo. SIIMI 2026. https://doi.org/10.5281/zenodo.20562453]
+    [XAVIER, Arthur. Dançar conforme a música, musicar conforme a dança: sobre 'máquina-eu máquina-mundo' (2025) para dança, celulares e áudio interativo. In: <em>Anais do XIII Simpósio Internacional de Inovação em Mídias Interativas. Paradigmas</em>. ROCHA, Cleomar (Org). Goiânia: Media Lab / Iberoamérica, PPG ACT, 2026. DOI: HTML_LINK([10.5281/zenodo.20562453], [https://doi.org/10.5281/zenodo.20562453])],
+    [Xavier, A. (2026). Dançar conforme a música, musicar conforme a dança: sobre 'máquina-eu máquina-mundo' (2025) para dança, celulares e áudio interativo. SIIMI 2026. HTML_LINK([https://doi.org/10.5281/zenodo.20562453])]
   )],
   [],
   [HTML_DATE(2026, 04)],

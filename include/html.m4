@@ -71,7 +71,7 @@ M4_DEFINE(
 M4_DEFINE([HTML_ARTICLE], M4_INCLUDE([article.html.m4]))
 
 M4_DEFINE([HTML_H6], [<h6>[$1]</h6>])
-M4_DEFINE([HTML_LINK], [<a target="_blank" href="[$2]">[$1]</a>])
+M4_DEFINE([HTML_LINK], [<a target="_blank" href="M4_IFVAL([$2], [$2], [$1])">[$1]</a>])
 
 M4_DEFINE(
 [INTERNAL_URL],
