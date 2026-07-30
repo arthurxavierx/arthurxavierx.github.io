@@ -1,0 +1,76 @@
+@media print {
+  @page {
+    size: A4;
+    margin: 21mm 21mm 18mm 21mm;
+  }
+
+  html {
+    -webkit-print-color-adjust: exact !important;
+    --color-primary: #212121;
+    --color-muted: #545454;
+  }
+
+  body {
+    padding: 0 0.7rem;
+  }
+
+  article {
+    break-inside: avoid;
+  }
+}
+
+body {
+  max-width: 65rem;
+  --align-margin: 15rem;
+}
+
+body > header {
+  margin: 0 0 2.6rem;
+}
+
+nav {
+  font-size: 1.15rem;
+}
+
+nav a {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+nav ul {
+  justify-content: center;
+}
+
+nav ul > li {
+  margin: 0 0.2rem 0 0;
+}
+
+nav ul > li::before {
+  content: "•";
+  margin: 0 0.2rem 0 0;
+}
+
+h3 {
+  margin-top: 1.9em;
+}
+
+header h5 {
+  margin-top: 0.66em;
+}
+
+article {
+  margin: 0.66rem 0;
+}
+
+.summary {
+  margin-left: 1.62rem;
+}
+
+@media screen and (max-width: 799px) {
+  .summary {
+    margin-left: 0;
+  }
+}
