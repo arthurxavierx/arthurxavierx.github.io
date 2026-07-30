@@ -29,16 +29,16 @@ HTML_BEGIN(<link href="STATIC_FILE([css/cv.css])" rel="stylesheet" type="text/cs
     em Música/Composição na UFMG e interessa-se por tudo o que é arte sonora, arte multimídia, música
     experimental e música eletroacústica. Acredita na arte enquanto ferramenta de emancipação
     subjetiva e política, e em seu potencial de despertar atenção, reflexão e ação através de
-    experiências sensíveis. Investiga principalmente as questões das relações subjetivas com
+    experiências sensíveis. Investiga principalmente a interatividade, o diálogo e as relações subjetivas com
     o trabalho, a tecnologia, o tempo e a memória.
   ], [
-    Arthur Xavier is a transdisciplinary artist, composer and developer based in Belo Horizonte and Brasília, Brazil. A former
-    Software Engineer and bachelor in Computer Science, nowadays Arthur studies Composition at
+    Arthur Xavier is a transdisciplinary artist, composer and developer based in Belo Horizonte and Brasília, Brazil.
+    A former Software Engineer and bachelor in Computer Science, nowadays Arthur studies Composition at
     the Federal University of Minas Gerais, Brazil and has a major interest in sound art, multimedia arts,
     and experimental and electroacoustic music. They believe in art as a tool for subjective and
     political liberation, and on its power of mobilizing attention, reflection and action through
-    sensible experiences. Arthur mainly investigates the questions of subjective relations with work,
-    technology, time and memory.
+    sensible experiences. Arthur mainly investigates the themes of interactivity, dialogue, and subjective relations
+    with work, technology, time and memory.
   ])
 </p>
 
@@ -72,7 +72,9 @@ HTML_BEGIN(<link href="STATIC_FILE([css/cv.css])" rel="stylesheet" type="text/cs
 </section>
 
 M4_INCLUDE(cv/education.m4)dnl
+M4_INCLUDE(cv/publications.m4)dnl
 M4_INCLUDE(cv/additional.m4)dnl
+M4_INCLUDE(cv/works.m4)dnl
 M4_INCLUDE(cv/professional.m4)dnl
 
 HTML_END()

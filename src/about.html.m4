@@ -23,14 +23,14 @@ HTML_HEADER()
   __([
     Acredita na arte enquanto ferramenta de emancipação subjetiva e política, e em seu
     potencial de despertar atenção, reflexão e ação através de experiências sensíveis.
-    Investiga principalmente as questões das relações subjetivas com o trabalho, a tecnologia,
-    o tempo e a memória. Faz arte para parar o tempo, arte para estar presente, arte para sair
-    sair de dentro da própria cabeça.
+    Investiga principalmente a interatividade, o diálogo e as relações subjetivas com o trabalho,
+    a tecnologia, o tempo e a memória. Faz arte para parar o tempo, arte para estar presente, arte
+    para sair sair de dentro da própria cabeça.
   ], [
     They believe in art as a tool for subjective and political liberation, and on its power of
     mobilizing attention, reflection and action through sensible experiences. Arthur mainly
-    investigates the questions of subjective relations with work, technology, time and memory.
-    Makes art to stop time, to feel present, and to leave their own head.
+    investigates the themes of interactivity, dialogue, and subjective relations with work, technology,
+    time and memory. Makes art to stop time, to feel present, and to leave their own head.
   ])
 </p>
 

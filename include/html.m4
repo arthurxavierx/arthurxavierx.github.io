@@ -83,6 +83,8 @@ M4_DEFINE(
 [STATIC_FILE],
 [M4_SYSTEST([test -f "__STATIC__/[$1]"], [M4_ESYSCMD(grealpath --relative-to=__DIR__ __STATIC__/[$1] | tr -d '\n')], [M4_ERROR(File '__STATIC__/[$1]' does not exist.)])])
 
+M4_DEFINE([STATIC_FILE_LINK], [HTML_LINK($1, __SITE__/STATIC_FILE($2))])
+
 M4_DEFINE([__CNAME__], [M4_ESYSCMD(cat __STATIC__/CNAME)])
 M4_DEFINE([__SITE__], [https://__CNAME__])
 M4_DEFINE([__URL__], [__SITE__/__([__FILE__], [en/__FILE__])])

@@ -4,7 +4,7 @@ dnl vim: ft=htmlm4
 
 HTML_ARTICLE(
   [],
-  [Natureza, Arte e Tecnologia: O Amor entre Humanos e Não Humanos],
+  [__([Natureza, Arte e Tecnologia: O Amor entre Humanos e Não Humanos], [Nature, Art & Technology: Love between Humans and Non-Humans])],
   [HTML_LINK([Instituto Ling], [https://institutoling.org.br/])],
   [HTML_DATE(2025, 06) &ndash; HTML_DATE(2025, 08)],
   [__(
@@ -14,7 +14,7 @@ HTML_ARTICLE(
       de novas alianças entre espécies, linguagens e inteligências.
     </p>],
     [<p>
-      Online classes associated with the 24º Encontro Internacional de Arte e Tecnologia,
+      Online classes associated with the 24th Encontro Internacional de Arte e Tecnologia,
       in Brasília, Brazil, where artists, thinkers, scientists and designers investigate
       the collapse of anthropocentrism and the emergence of new alliances between species,
       languages and intelligences.
@@ -24,7 +24,7 @@ HTML_ARTICLE(
 
 HTML_ARTICLE(
   [],
-  [Afrobeat LAB, Festival Favela Sounds],
+  [__([Afrobeat LAB, Festival Favela Sounds], [Afrobeat Lab, Favela Sounds Festival])],
   [HTML_LINK([Festival Favela Sounds], [https://favelasounds.com.br/2025/02/12/afrobeat-lab/])],
   [HTML_DATE(2025, 02)],
   [__(
@@ -43,7 +43,7 @@ HTML_ARTICLE(
 
 HTML_ARTICLE(
   [],
-  [Ficção Sônica: o encontro entre a sonoridade e a ficção científica],
+  [__([Ficção Sônica: o encontro entre a sonoridade e a ficção científica], [Sonic Fiction: encounters between sound and science fiction])],
   [HTML_LINK([Casa Brava Espaço Cultural], [https://www.bravasp.com.br/])],
   [HTML_DATE(2025, 02)],
   [__(
@@ -60,7 +60,7 @@ HTML_ARTICLE(
 
 HTML_ARTICLE(
   [],
-  [Introdução à Criação Sonora],
+  [__([Introdução à Criação Sonora], [Introduction to Sound Creation])],
   [HTML_LINK([Conservatório de Tatuí], [https://www.conservatoriodetatui.org.br/])],
   [HTML_DATE(2024, 08) &ndash; HTML_DATE(2024, 12)],
   [__(
