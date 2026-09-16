@@ -7,12 +7,12 @@ HTML_HEADER()
 
 <p>
   __([
-    Arthur Xavier é artista transdisciplinar, compositor e desenvolvedor residente em Belo Horizonte e Brasília.
+    Arthur Xavier é artista transdisciplinar, compositor e desenvolvedor residente em Belo Horizonte.
     Ex-engenheiro de software e bacharel em Ciência da Computação, hoje é estudante do Bacharelado
     em Música com habilitação em Composição na UFMG e se interessa por tudo o que é arte sonora,
     arte multimídia, música experimental e música eletroacústica.
   ], [
-    Arthur Xavier is a transdisciplinary artist, composer and developer based in Belo Horizonte and Brasília, Brazil.
+    Arthur Xavier is a transdisciplinary artist, composer and developer based in Belo Horizonte, Brazil.
     A former Software Engineer and bachelor in Computer Science, nowadays Arthur studies Composition at
     the Federal University of Minas Gerais, Brazil and has a major interest in sound art, multimedia
     arts, and experimental and electroacoustic music.
